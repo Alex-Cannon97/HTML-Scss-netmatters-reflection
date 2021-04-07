@@ -1,0 +1,221 @@
+#first-ftr{
+	display: flex;
+	background-color: $base-dark;
+	color: $base-white;
+	font-size: .8125rem;
+	line-height: 1.375rem;
+	> div{
+		margin: 0;
+		padding: 0;
+	}
+	h4{
+		text-transform: uppercase;
+		height: 17px;
+		font-size: 1rem;
+		font-weight: 400;
+		margin: 0 0 28px;
+	}
+	a{
+		display: inline-block;
+	}
+	ul{
+		padding: 0;
+		margin: 0 0 28px;
+	}
+	@include mq('xs'){
+		flex-direction: column;
+		padding: 45px 15px 43px;
+	}
+	@include mq('sm'){
+		flex-flow: row wrap;
+		padding: 45px 0 43px;
+		justify-content: center;
+		margin: auto;
+		> div{
+			flex-basis: 375px;
+			padding: 0 15px;
+		}
+	}
+	@include mq('md'){
+		> div{
+			flex-basis: 485px;
+			max-width: 485px;
+		}
+	}
+	@include mq('lg'){
+		> div{
+			flex-basis: 300px;
+			max-width: 300px;
+			max-height: 221px
+		}
+	}
+}
+
+#socials h4{
+	padding-bottom: 23px;
+}
+
+#socials-links{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	a{
+		display: flex;
+		justify-content: center;
+		.fab{
+			font-size: 28px;
+		}
+		&:hover{
+			text-decoration: none;
+		}
+	}
+	a:nth-child(n+4){
+		margin-bottom: 0;
+	}
+}
+
+.gap{
+	flex-basis: 30px;
+	max-width: 30px;
+}
+
+.empty{
+	flex: 1 0 40%;
+	padding: 12.5px 0;
+}
+
+a:hover{
+	&.facebook{
+		background-color: $facebook;
+	}
+	&.twitter{
+		background-color: $twitter;
+	}
+	&.linkedin{
+		background-color: $linkedin;
+	}
+}
+
+.facebook,
+.twitter,
+.linkedin{
+	flex: 1 0 40%;
+	background-color: rgba(0,0,0,.25);
+	padding: 13.5px 0;
+	margin-bottom: 30px;
+}
+
+.awards{
+	padding: 50px 0;
+	max-height: 266px;
+	@include mq('xs'){
+		display: none;
+	}
+	@include mq('sm'){
+		display: block;
+	}
+}
+
+.partners,
+.awards-section{
+	display: flex;
+	justify-content: space-between;
+	max-width: 720px;
+	margin: auto;
+	margin-top: 20px;
+	div{
+		position: relative;
+		padding: 8px 15px;
+	}
+	@include mq('sm'){
+		.google{
+			padding: 0 20px;
+		}
+		.microsoft img,
+		.qms img,
+		.norfolk-cc img{
+			height: 53.3px;
+		}
+		.future{
+			height: 53.28px
+		}
+		.future-growth img,
+		.skills-of-tomorrow img{
+			height: 66.28px;
+		}
+		.princess img{
+			height: 50.28px;
+		}
+	}
+	@include mq('md'){
+		max-width: 940px;
+		.google{
+			padding: 0 32px 0 33px; 
+		}
+		.microsoft img{
+			height: 85.33px;
+		}
+		.future img{
+			height: 110.09px;
+		}
+		.qms img{
+			height: 99.39px;
+		}
+		.norfolk-cc img{
+			height: 80.08px;
+		}
+		.future-growth img{
+			height: 90.58px;
+		}
+		.princess img{
+			height: 68.72px;
+		}
+		.skills-of-tomorrow img{
+			height: 90.58px;
+		}
+	}
+	@include mq('lg'){
+		max-width: 1098px;
+		.awards-section{
+			padding: 0 40px;
+		}
+		.google{
+			padding: 0 20px 0 19px;
+		}
+		.microsoft img,
+		.future img,
+		.qms img,
+		.norfolk-cc img{
+			height: 70px;
+		}
+		.future-growth img,
+		.skills-of-tomorrow img{
+			height: 58px;
+			padding: 0 50px;
+		}
+		.princess img{
+			height: 44px;
+		}
+	}
+}
+
+.partners{
+	margin-top: 0;
+	padding: 0;	
+}
+
+.blacktocolor{
+	img{
+		&:last-child{
+			position: absolute;
+			visibility: hidden;
+			right: 15px;
+			z-index: 1;
+		}
+	}
+	&:hover{
+		img:last-child{
+			visibility: visible;
+		}
+	}
+}

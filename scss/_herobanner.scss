@@ -1,0 +1,62 @@
+// all hero related styles to go in here.
+
+.hero-banner{
+	background-image: linear-gradient(to right, rgb(0,0,0), rgba(0,0,0,.0)), url('../images/hero-image.PNG');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 800px;
+	@include mq('xs'){
+		min-height: 531px;
+	}
+	@include mq('sm'){
+		min-height: 589px;
+	}
+	@include mq('md'){
+		min-height: 491px;
+	}
+	@include mq('lg'){
+		min-height: 577px;
+	}
+}
+.hero-content{
+	width: 100%;
+	align-content: center;
+	@include mq('md'){
+		width: 940px;
+	}
+	@include mq('lg'){
+		width: 1170px;
+	}
+}
+
+
+ .hero-text{
+	width: 100%;
+	font-family: poppins, sans-serif;
+	color: $base-white;
+	text-align: center;
+	max-width: 90%;
+	margin: -1px auto 0;
+	h1{
+		font-size: 48px;
+		font-weight: 400;
+		margin: 0 0 25px 0;
+	}
+	p{
+		font-size: 1.25rem;
+		line-height: 2.25rem;
+		margin: 0 0 35px;
+	}
+	span{
+		font-weight: 400;
+		line-height: 50px;
+		font-size: 1.25rem;
+	}
+	@include mq('md'){
+		text-align: left;
+		margin-left: 0;
+		
+	}
+}

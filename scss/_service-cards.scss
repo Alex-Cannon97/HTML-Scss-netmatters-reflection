@@ -1,0 +1,124 @@
+// styles for my service cards
+
+#service-cards{
+	@include mq('xs'){
+		padding: 50px 0;
+	}
+	@include mq('sm'){
+		padding: 50px 0;
+	}
+}
+
+.card-content{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	margin: auto;
+	@include mq('xs'){
+		width: 100%;
+	}
+	@include mq('sm'){
+		width: 750px;
+	}
+	@include mq('md'){
+		width: 970px;
+	}
+	@include mq('lg'){
+		width: 1200px;
+	}
+}
+
+.card-icon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 23px;
+	width: 60px;
+	height: 60px;
+	background-color: $base-white;
+	border: 0px solid transparent;
+	border-radius: 50%;
+	margin: 0 auto 17px;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-bottom: 30px;
+	text-align: center;
+	color: $base-dark;
+	background-color: $base-white;
+	border: 1px solid $base-accenting;
+	border-radius: 2px;
+	padding: 30px;
+	box-shadow: 0 3px 35px rgba(0,0,0,.1);
+	@include cards($card-colors);
+	h3{
+		font-size: 1.125rem;
+		margin: 0 0 13px;
+		font-weight: 400;
+	}
+	.line{
+		width: 28px;
+		height: 3px;
+		display: block;
+		background-color: $base-dark;
+		margin: 0 auto; 
+	}
+	p{
+		font-size: .8125rem;
+		line-height: 1.375rem;
+		margin: 11px 0 13px;
+		font-weight: 400;
+	}
+	&:hover{
+		text-decoration: none;
+	}
+	@include mq('xs'){
+        flex: 1 1 100%;
+        max-width: 100%;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    @include mq('sm'){
+       max-width: 720px;
+       flex-basis: 720px;
+       padding: 30px; 
+       margin-left: 15px;
+       margin-right: 15px;
+       &:nth-child(n+4){
+           flex-basis: 345px;
+           max-width: 345px;
+       }
+       &:nth-child(n+6){
+           margin-bottom: 0;
+       }
+    }
+    @include mq('md'){
+        max-width: 293.33px;
+        flex-basis: 293.33px;
+        &:nth-child(n+4){
+            flex-basis: 455px;
+            max-width: 455px;
+        }
+    }
+    @include mq('lg'){
+        max-width: 370px;
+        flex-basis: 370px;
+        &:nth-child(n+4){
+            max-width: 270px;
+            flex-basis: 270px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+#service-cards .btn-card{
+	width: 130px;
+	padding: 0;
+	align-self: center;
+	height: 47px;
+	line-height: 47px;
+}
