@@ -913,7 +913,7 @@ ul {
 
 /* line 3, F:/New Netmatters/scss/_herobanner.scss */
 .hero-banner {
-  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url("../images/hero-image.PNG");
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url("../images/hero-image.PNG"), url("../images/hero-image-ie.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
