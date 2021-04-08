@@ -756,53 +756,63 @@ header {
   position: absolute;
   top: 99px;
   left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-/* line 415, F:/New Netmatters/scss/_header.scss */
+/* line 418, F:/New Netmatters/scss/_header.scss */
 .Web-nav .second-nav-background {
   background-color: #7e57a0;
 }
 
-/* line 419, F:/New Netmatters/scss/_header.scss */
+/* line 422, F:/New Netmatters/scss/_header.scss */
 .IT-nav .second-nav-background {
   background-color: #2a6ec6;
 }
 
-/* line 423, F:/New Netmatters/scss/_header.scss */
+/* line 426, F:/New Netmatters/scss/_header.scss */
 .Telecoms-nav .second-nav-background {
   background-color: #bc2c28;
 }
 
-/* line 427, F:/New Netmatters/scss/_header.scss */
+/* line 430, F:/New Netmatters/scss/_header.scss */
 .Software-nav .second-nav-background {
   background-color: #566c88;
 }
 
-/* line 431, F:/New Netmatters/scss/_header.scss */
+/* line 434, F:/New Netmatters/scss/_header.scss */
 .Digital-nav .second-nav-background {
   background-color: #25a25a;
 }
 
-/* line 435, F:/New Netmatters/scss/_header.scss */
+/* line 438, F:/New Netmatters/scss/_header.scss */
 .Cyber-nav .second-nav-background {
   background-color: #de093f;
 }
 
-/* line 460, F:/New Netmatters/scss/_header.scss */
+/* line 463, F:/New Netmatters/scss/_header.scss */
 .second-nav-content {
   display: none;
   left: 0;
   align-items: center;
   z-index: 1;
   top: 200px;
-  width: 100vw;
+  width: 1020px;
   height: 44px;
   font-size: 13px;
   margin-top: 0px;
   text-transform: uppercase;
 }
 
-/* line 473, F:/New Netmatters/scss/_header.scss */
+@media (min-width: 1260px) {
+  /* line 463, F:/New Netmatters/scss/_header.scss */
+  .second-nav-content {
+    width: 1185px;
+  }
+}
+
+/* line 479, F:/New Netmatters/scss/_header.scss */
 .second-nav-content a {
   float: left;
   color: white;
@@ -810,7 +820,7 @@ header {
   font-size: 13px;
 }
 
-/* line 478, F:/New Netmatters/scss/_header.scss */
+/* line 484, F:/New Netmatters/scss/_header.scss */
 .second-nav-content a:after {
   content: "-";
   padding-left: 24px;
@@ -818,29 +828,28 @@ header {
 }
 
 @media (min-width: 1260px) {
-  /* line 478, F:/New Netmatters/scss/_header.scss */
+  /* line 484, F:/New Netmatters/scss/_header.scss */
   .second-nav-content a:after {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
-/* line 487, F:/New Netmatters/scss/_header.scss */
-.second-nav-content alast-child::after {
+/* line 493, F:/New Netmatters/scss/_header.scss */
+.second-nav-content a:last-child::after {
   display: none;
 }
 
 @media (min-width: 1260px) {
-  /* line 473, F:/New Netmatters/scss/_header.scss */
+  /* line 479, F:/New Netmatters/scss/_header.scss */
   .second-nav-content a {
     font-size: 16px;
   }
 }
 
-/* line 494, F:/New Netmatters/scss/_header.scss */
+/* line 500, F:/New Netmatters/scss/_header.scss */
 .subnav:hover .second-nav-content {
   display: flex;
-  justify-content: center;
 }
 
 /* line 3, F:/New Netmatters/scss/_body.scss */

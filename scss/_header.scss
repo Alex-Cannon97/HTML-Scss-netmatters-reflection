@@ -410,6 +410,9 @@ header{
 	position: absolute;
 	top: 99px;
 	left: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 .Web-nav .second-nav-background{
@@ -463,11 +466,14 @@ header{
   	align-items: center;
   	z-index: 1;
   	top: 200px;
-  	width: 100vw;
+  	width: 1020px;
   	height: 44px;
   	font-size: 13px;
   	margin-top: 0px;
   	text-transform: uppercase;
+  	@include mq('lg'){
+  		width: 1185px;
+  	}
   }
 
   .second-nav-content a{
@@ -480,11 +486,11 @@ header{
   		padding-left: 24px;
   		padding-right: 24px;
   		@include mq('lg'){
-  			padding-left: 35px;
-  			padding-right: 35px;
+  			padding-left: 30px;
+  			padding-right: 30px;
   			}
   		}
-  		&last-child::after{
+  		&:last-child::after{
   			display: none;
   		}
   		@include mq('lg'){
@@ -493,6 +499,5 @@ header{
   	}
   	.subnav:hover .second-nav-content{
   		display: flex;
-  		justify-content: center;
   	}
   
