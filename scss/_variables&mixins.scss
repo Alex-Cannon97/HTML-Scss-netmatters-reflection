@@ -116,6 +116,7 @@ $breakpoints:(
 	&-#{$cardservices}:hover {
 		color: $base-white;
 		background-color: $cardcolor;
+		border-color: $cardcolor;
 		.card-icon{
 			background-color: $base-white;
 		}

@@ -1,10 +1,10 @@
-/* line 169, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 170, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients {
   position: absolute;
   display: inline-block;
 }
 
-/* line 141, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 142, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box,
 .tooltip-clients .tooltip-point {
   visibility: hidden;
@@ -15,7 +15,7 @@
   z-index: 2;
 }
 
-/* line 150, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 151, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box {
   background-color: #333645;
   color: #fff;
@@ -24,19 +24,19 @@
   text-align: center;
 }
 
-/* line 157, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 158, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-point {
   background: linear-gradient(-45deg, #333645 45%, transparent 45%);
   transform: rotate(45deg);
 }
 
-/* line 162, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 163, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients:hover .tooltip-box,
 .tooltip-clients:hover .tooltip-point {
   visibility: visible;
 }
 
-/* line 171, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 172, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box {
   width: 260px;
   min-height: 131px;
@@ -46,7 +46,7 @@
   padding: 20px;
 }
 
-/* line 178, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 179, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box span {
   display: block;
   font-size: 1.125rem;
@@ -54,7 +54,7 @@
   line-height: 1.1;
 }
 
-/* line 184, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 185, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box .tooltip-line {
   width: 28px;
   height: 3px;
@@ -62,14 +62,14 @@
   margin: auto;
 }
 
-/* line 190, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 191, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box p {
   font-size: .8125rem;
   line-height: 1.375rem;
   margin: 11px 0 0;
 }
 
-/* line 196, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 197, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-point {
   width: 72px;
   min-height: 72px;
@@ -77,19 +77,19 @@
   margin-bottom: 30px;
 }
 
-/* line 203, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 204, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients:hover .tooltip-box,
 .tooltip-clients:hover .tooltip-point {
   opacity: 1;
 }
 
-/* line 169, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 170, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients {
   position: absolute;
   display: inline-block;
 }
 
-/* line 141, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 142, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box,
 .tooltip-clients .tooltip-point {
   visibility: hidden;
@@ -100,7 +100,7 @@
   z-index: 2;
 }
 
-/* line 150, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 151, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box {
   background-color: #333645;
   color: #fff;
@@ -109,19 +109,19 @@
   text-align: center;
 }
 
-/* line 157, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 158, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-point {
   background: linear-gradient(-45deg, #333645 45%, transparent 45%);
   transform: rotate(45deg);
 }
 
-/* line 162, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 163, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients:hover .tooltip-box,
 .tooltip-clients:hover .tooltip-point {
   visibility: visible;
 }
 
-/* line 171, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 172, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box {
   width: 260px;
   min-height: 131px;
@@ -131,7 +131,7 @@
   padding: 20px;
 }
 
-/* line 178, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 179, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box span {
   display: block;
   font-size: 1.125rem;
@@ -139,7 +139,7 @@
   line-height: 1.1;
 }
 
-/* line 184, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 185, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box .tooltip-line {
   width: 28px;
   height: 3px;
@@ -147,14 +147,14 @@
   margin: auto;
 }
 
-/* line 190, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 191, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box p {
   font-size: .8125rem;
   line-height: 1.375rem;
   margin: 11px 0 0;
 }
 
-/* line 196, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 197, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-point {
   width: 72px;
   min-height: 72px;
@@ -162,7 +162,7 @@
   margin-bottom: 30px;
 }
 
-/* line 203, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 204, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients:hover .tooltip-box,
 .tooltip-clients:hover .tooltip-point {
   opacity: 1;
@@ -564,6 +564,7 @@ header {
 #navbar {
   position: relative;
   display: none;
+  padding: 0 15px;
 }
 
 @media (min-width: 992px) {
@@ -580,17 +581,13 @@ header {
 }
 
 @media (min-width: 1260px) {
-  /* line 266, F:/New Netmatters/scss/_header.scss */
-  #navbar {
-    padding: 0;
-  }
-  /* line 280, F:/New Netmatters/scss/_header.scss */
+  /* line 281, F:/New Netmatters/scss/_header.scss */
   #navbar .second-nav-btn {
     width: 194.67px;
   }
 }
 
-/* line 286, F:/New Netmatters/scss/_header.scss */
+/* line 287, F:/New Netmatters/scss/_header.scss */
 #navbar a {
   color: #fff;
   text-align: center;
@@ -598,12 +595,12 @@ header {
   text-transform: uppercase;
 }
 
-/* line 294, F:/New Netmatters/scss/_header.scss */
+/* line 295, F:/New Netmatters/scss/_header.scss */
 .subnav {
   overflow: hidden;
 }
 
-/* line 298, F:/New Netmatters/scss/_header.scss */
+/* line 299, F:/New Netmatters/scss/_header.scss */
 .subnav .second-nav-btn {
   display: flex;
   font-size: 18px;
@@ -616,14 +613,14 @@ header {
   font-family: poppins, sans-serif;
 }
 
-/* line 308, F:/New Netmatters/scss/_header.scss */
+/* line 309, F:/New Netmatters/scss/_header.scss */
 .subnav .second-nav-btn span {
   font-size: 10px;
   padding: 5px 0 1px;
   line-height: .3;
 }
 
-/* line 316, F:/New Netmatters/scss/_header.scss */
+/* line 317, F:/New Netmatters/scss/_header.scss */
 .nav-bar-tile {
   display: flex;
   flex-direction: column;
@@ -632,125 +629,132 @@ header {
   width: 154px;
 }
 
-/* line 322, F:/New Netmatters/scss/_header.scss */
+/* line 323, F:/New Netmatters/scss/_header.scss */
 .nav-bar-tile .fas {
   font-size: 20px;
   margin: 5px auto 8px;
 }
 
-/* line 326, F:/New Netmatters/scss/_header.scss */
+/* line 327, F:/New Netmatters/scss/_header.scss */
 .nav-bar-tile:hover {
   text-decoration: none;
 }
 
 @indlude mq('lg') {
-  /* line 316, F:/New Netmatters/scss/_header.scss */
+  /* line 317, F:/New Netmatters/scss/_header.scss */
   .nav-bar-tile {
     width: 192px;
   }
 }
 
-/* line 334, F:/New Netmatters/scss/_header.scss */
+@media (min-width: 992px) {
+  /* line 317, F:/New Netmatters/scss/_header.scss */
+  .nav-bar-tile {
+    width: 154.33px;
+  }
+}
+
+/* line 338, F:/New Netmatters/scss/_header.scss */
 .Web-nav {
   border-left: 1px solid #484a58;
 }
 
-/* line 336, F:/New Netmatters/scss/_header.scss */
+/* line 340, F:/New Netmatters/scss/_header.scss */
 .Web-nav .fas {
   color: #926fb1;
 }
 
-/* line 339, F:/New Netmatters/scss/_header.scss */
+/* line 343, F:/New Netmatters/scss/_header.scss */
 .Web-nav:hover {
   background-color: #926fb1;
 }
 
-/* line 341, F:/New Netmatters/scss/_header.scss */
+/* line 345, F:/New Netmatters/scss/_header.scss */
 .Web-nav:hover .fas {
   color: #fff;
 }
 
-/* line 348, F:/New Netmatters/scss/_header.scss */
+/* line 352, F:/New Netmatters/scss/_header.scss */
 .IT-nav .fas {
   color: #4183d7;
 }
 
-/* line 351, F:/New Netmatters/scss/_header.scss */
+/* line 355, F:/New Netmatters/scss/_header.scss */
 .IT-nav:hover {
   background-color: #4183d7;
 }
 
-/* line 353, F:/New Netmatters/scss/_header.scss */
+/* line 357, F:/New Netmatters/scss/_header.scss */
 .IT-nav:hover .fas {
   color: #fff;
 }
 
-/* line 360, F:/New Netmatters/scss/_header.scss */
+/* line 364, F:/New Netmatters/scss/_header.scss */
 .Telecoms-nav .fas {
   color: #d64541;
 }
 
-/* line 363, F:/New Netmatters/scss/_header.scss */
+/* line 367, F:/New Netmatters/scss/_header.scss */
 .Telecoms-nav:hover {
   background-color: #d64541;
 }
 
-/* line 365, F:/New Netmatters/scss/_header.scss */
+/* line 369, F:/New Netmatters/scss/_header.scss */
 .Telecoms-nav:hover .fas {
   color: #fff;
 }
 
-/* line 372, F:/New Netmatters/scss/_header.scss */
+/* line 376, F:/New Netmatters/scss/_header.scss */
 .Software-nav .fas {
   color: #67809f;
 }
 
-/* line 375, F:/New Netmatters/scss/_header.scss */
+/* line 379, F:/New Netmatters/scss/_header.scss */
 .Software-nav:hover {
   background-color: #67809f;
 }
 
-/* line 377, F:/New Netmatters/scss/_header.scss */
+/* line 381, F:/New Netmatters/scss/_header.scss */
 .Software-nav:hover .fas {
   color: #fff;
 }
 
-/* line 384, F:/New Netmatters/scss/_header.scss */
+/* line 388, F:/New Netmatters/scss/_header.scss */
 .Digital-nav .fas {
   color: #2ecc71;
 }
 
-/* line 387, F:/New Netmatters/scss/_header.scss */
+/* line 391, F:/New Netmatters/scss/_header.scss */
 .Digital-nav:hover {
   background-color: #2ecc71;
 }
 
-/* line 389, F:/New Netmatters/scss/_header.scss */
+/* line 393, F:/New Netmatters/scss/_header.scss */
 .Digital-nav:hover .fas {
   color: #fff;
 }
 
-/* line 395, F:/New Netmatters/scss/_header.scss */
+/* line 399, F:/New Netmatters/scss/_header.scss */
 .Cyber-nav {
   border-right: 1px solid rgba(0, 0, 0, 0.25);
 }
 
-/* line 397, F:/New Netmatters/scss/_header.scss */
+/* line 401, F:/New Netmatters/scss/_header.scss */
 .Cyber-nav .fas {
   color: #f62459;
 }
 
-/* line 400, F:/New Netmatters/scss/_header.scss */
+/* line 404, F:/New Netmatters/scss/_header.scss */
 .Cyber-nav:hover {
   background-color: #f62459;
 }
 
-/* line 402, F:/New Netmatters/scss/_header.scss */
+/* line 406, F:/New Netmatters/scss/_header.scss */
 .Cyber-nav:hover .fas {
   color: #fff;
 }
 
-/* line 408, F:/New Netmatters/scss/_header.scss */
+/* line 412, F:/New Netmatters/scss/_header.scss */
 .second-nav-background {
   width: 100vw;
   position: absolute;
@@ -761,44 +765,44 @@ header {
   justify-content: center;
 }
 
-/* line 418, F:/New Netmatters/scss/_header.scss */
+/* line 422, F:/New Netmatters/scss/_header.scss */
 .Web-nav .second-nav-background {
   background-color: #7e57a0;
 }
 
-/* line 422, F:/New Netmatters/scss/_header.scss */
+/* line 426, F:/New Netmatters/scss/_header.scss */
 .IT-nav .second-nav-background {
   background-color: #2a6ec6;
 }
 
-/* line 426, F:/New Netmatters/scss/_header.scss */
+/* line 430, F:/New Netmatters/scss/_header.scss */
 .Telecoms-nav .second-nav-background {
   background-color: #bc2c28;
 }
 
-/* line 430, F:/New Netmatters/scss/_header.scss */
+/* line 434, F:/New Netmatters/scss/_header.scss */
 .Software-nav .second-nav-background {
   background-color: #566c88;
 }
 
-/* line 434, F:/New Netmatters/scss/_header.scss */
+/* line 438, F:/New Netmatters/scss/_header.scss */
 .Digital-nav .second-nav-background {
   background-color: #25a25a;
 }
 
-/* line 438, F:/New Netmatters/scss/_header.scss */
+/* line 442, F:/New Netmatters/scss/_header.scss */
 .Cyber-nav .second-nav-background {
   background-color: #de093f;
 }
 
-/* line 463, F:/New Netmatters/scss/_header.scss */
+/* line 467, F:/New Netmatters/scss/_header.scss */
 .second-nav-content {
   display: none;
   left: 0;
   align-items: center;
   z-index: 1;
   top: 200px;
-  width: 1020px;
+  width: 969px;
   height: 44px;
   font-size: 13px;
   margin-top: 0px;
@@ -806,13 +810,13 @@ header {
 }
 
 @media (min-width: 1260px) {
-  /* line 463, F:/New Netmatters/scss/_header.scss */
+  /* line 467, F:/New Netmatters/scss/_header.scss */
   .second-nav-content {
     width: 1185px;
   }
 }
 
-/* line 479, F:/New Netmatters/scss/_header.scss */
+/* line 483, F:/New Netmatters/scss/_header.scss */
 .second-nav-content a {
   float: left;
   color: white;
@@ -820,7 +824,7 @@ header {
   font-size: 13px;
 }
 
-/* line 484, F:/New Netmatters/scss/_header.scss */
+/* line 488, F:/New Netmatters/scss/_header.scss */
 .second-nav-content a:after {
   content: "-";
   padding-left: 24px;
@@ -828,26 +832,26 @@ header {
 }
 
 @media (min-width: 1260px) {
-  /* line 484, F:/New Netmatters/scss/_header.scss */
+  /* line 488, F:/New Netmatters/scss/_header.scss */
   .second-nav-content a:after {
     padding-left: 30px;
     padding-right: 30px;
   }
 }
 
-/* line 493, F:/New Netmatters/scss/_header.scss */
+/* line 497, F:/New Netmatters/scss/_header.scss */
 .second-nav-content a:last-child::after {
   display: none;
 }
 
 @media (min-width: 1260px) {
-  /* line 479, F:/New Netmatters/scss/_header.scss */
+  /* line 483, F:/New Netmatters/scss/_header.scss */
   .second-nav-content a {
     font-size: 16px;
   }
 }
 
-/* line 500, F:/New Netmatters/scss/_header.scss */
+/* line 504, F:/New Netmatters/scss/_header.scss */
 .subnav:hover .second-nav-content {
   display: flex;
 }
@@ -1103,24 +1107,25 @@ ul {
 .card-Bespoke:hover {
   color: #fff;
   background-color: #67809f;
+  border-color: #67809f;
 }
 
-/* line 119, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 120, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Bespoke:hover .card-icon {
   background-color: #fff;
 }
 
-/* line 122, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 123, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Bespoke:hover .fas {
   color: #67809f;
 }
 
-/* line 125, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 126, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Bespoke:hover .line {
   background-color: #fff;
 }
 
-/* line 128, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 129, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Bespoke:hover .btn-card {
   color: #67809f;
   background-color: #fff;
@@ -1146,24 +1151,25 @@ ul {
 .card-IT:hover {
   color: #fff;
   background-color: #4183d7;
+  border-color: #4183d7;
 }
 
-/* line 119, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 120, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-IT:hover .card-icon {
   background-color: #fff;
 }
 
-/* line 122, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 123, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-IT:hover .fas {
   color: #4183d7;
 }
 
-/* line 125, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 126, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-IT:hover .line {
   background-color: #fff;
 }
 
-/* line 128, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 129, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-IT:hover .btn-card {
   color: #4183d7;
   background-color: #fff;
@@ -1189,24 +1195,25 @@ ul {
 .card-Digital:hover {
   color: #fff;
   background-color: #2ecc71;
+  border-color: #2ecc71;
 }
 
-/* line 119, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 120, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Digital:hover .card-icon {
   background-color: #fff;
 }
 
-/* line 122, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 123, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Digital:hover .fas {
   color: #2ecc71;
 }
 
-/* line 125, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 126, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Digital:hover .line {
   background-color: #fff;
 }
 
-/* line 128, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 129, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Digital:hover .btn-card {
   color: #2ecc71;
   background-color: #fff;
@@ -1232,24 +1239,25 @@ ul {
 .card-Telecoms:hover {
   color: #fff;
   background-color: #d64541;
+  border-color: #d64541;
 }
 
-/* line 119, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 120, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Telecoms:hover .card-icon {
   background-color: #fff;
 }
 
-/* line 122, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 123, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Telecoms:hover .fas {
   color: #d64541;
 }
 
-/* line 125, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 126, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Telecoms:hover .line {
   background-color: #fff;
 }
 
-/* line 128, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 129, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Telecoms:hover .btn-card {
   color: #d64541;
   background-color: #fff;
@@ -1275,24 +1283,25 @@ ul {
 .card-Web:hover {
   color: #fff;
   background-color: #926fb1;
+  border-color: #926fb1;
 }
 
-/* line 119, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 120, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Web:hover .card-icon {
   background-color: #fff;
 }
 
-/* line 122, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 123, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Web:hover .fas {
   color: #926fb1;
 }
 
-/* line 125, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 126, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Web:hover .line {
   background-color: #fff;
 }
 
-/* line 128, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 129, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Web:hover .btn-card {
   color: #926fb1;
   background-color: #fff;
@@ -1318,24 +1327,25 @@ ul {
 .card-Cyber:hover {
   color: #fff;
   background-color: #f62459;
+  border-color: #f62459;
 }
 
-/* line 119, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 120, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Cyber:hover .card-icon {
   background-color: #fff;
 }
 
-/* line 122, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 123, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Cyber:hover .fas {
   color: #f62459;
 }
 
-/* line 125, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 126, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Cyber:hover .line {
   background-color: #fff;
 }
 
-/* line 128, F:/New Netmatters/scss/_variables&mixins.scss */
+/* line 129, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Cyber:hover .btn-card {
   color: #f62459;
   background-color: #fff;

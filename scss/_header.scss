@@ -266,6 +266,7 @@ header{
   #navbar{
   	position: relative;
   	display: none;
+  	padding: 0 15px;
   	@include mq('md'){
   		display: flex;
   		width: 100vw;
@@ -276,7 +277,7 @@ header{
   		border-bottom: 1px solid #999aa2;
   	}
   	@include mq('lg'){
-  		padding: 0;
+  		//padding: 0;
   		.second-nav-btn{
   			width: 194.67px;
   		}
@@ -328,6 +329,9 @@ header{
   	}
   	@indlude mq('lg'){
   		width: 192px;
+  	}
+  	@include mq('md'){
+  		width: 154.33px;
   	}
   }
 
@@ -466,7 +470,7 @@ header{
   	align-items: center;
   	z-index: 1;
   	top: 200px;
-  	width: 1020px;
+  	width: 969px;
   	height: 44px;
   	font-size: 13px;
   	margin-top: 0px;
