@@ -592,7 +592,6 @@ header {
 
 /* line 286, F:/New Netmatters/scss/_header.scss */
 #navbar a {
-  font-size: 18px;
   color: #fff;
   text-align: center;
   text-decoration: none;
@@ -751,37 +750,37 @@ header {
   color: #fff;
 }
 
-/* line 409, F:/New Netmatters/scss/_header.scss */
-.subnav .Web-dropdown {
+/* line 408, F:/New Netmatters/scss/_header.scss */
+.Web-nav .second-nav-background {
   background-color: #7e57a0;
 }
 
 /* line 412, F:/New Netmatters/scss/_header.scss */
-.subnav .IT-dropdown {
+.IT-nav .second-nav-background {
   background-color: #2a6ec6;
 }
 
-/* line 415, F:/New Netmatters/scss/_header.scss */
-.subnav .Telecoms-dropdown {
+/* line 416, F:/New Netmatters/scss/_header.scss */
+.Telecoms-nav .second-nav-background {
   background-color: #bc2c28;
 }
 
-/* line 418, F:/New Netmatters/scss/_header.scss */
-.subnav .Software-dropdown {
+/* line 420, F:/New Netmatters/scss/_header.scss */
+.Software-nav .second-nav-background {
   background-color: #566c88;
 }
 
-/* line 421, F:/New Netmatters/scss/_header.scss */
-.subnav .Marketing-dropdown {
+/* line 424, F:/New Netmatters/scss/_header.scss */
+.Digital-nav .second-nav-background {
   background-color: #25a25a;
 }
 
-/* line 424, F:/New Netmatters/scss/_header.scss */
-.subnav .Cyber-dropdown {
+/* line 428, F:/New Netmatters/scss/_header.scss */
+.Cyber-nav .second-nav-background {
   background-color: #de093f;
 }
 
-/* line 429, F:/New Netmatters/scss/_header.scss */
+/* line 453, F:/New Netmatters/scss/_header.scss */
 .second-nav-content {
   display: none;
   position: absolute;
@@ -796,7 +795,7 @@ header {
   text-transform: uppercase;
 }
 
-/* line 443, F:/New Netmatters/scss/_header.scss */
+/* line 467, F:/New Netmatters/scss/_header.scss */
 .second-nav-content a {
   float: left;
   color: white;
@@ -804,7 +803,7 @@ header {
   font-size: 13px;
 }
 
-/* line 448, F:/New Netmatters/scss/_header.scss */
+/* line 472, F:/New Netmatters/scss/_header.scss */
 .second-nav-content a:after {
   content: "-";
   padding-left: 24px;
@@ -812,26 +811,26 @@ header {
 }
 
 @media (min-width: 1260px) {
-  /* line 448, F:/New Netmatters/scss/_header.scss */
+  /* line 472, F:/New Netmatters/scss/_header.scss */
   .second-nav-content a:after {
     padding-left: 35px;
     padding-right: 35px;
   }
 }
 
-/* line 457, F:/New Netmatters/scss/_header.scss */
+/* line 481, F:/New Netmatters/scss/_header.scss */
 .second-nav-content alast-child::after {
   display: none;
 }
 
 @media (min-width: 1260px) {
-  /* line 443, F:/New Netmatters/scss/_header.scss */
+  /* line 467, F:/New Netmatters/scss/_header.scss */
   .second-nav-content a {
     font-size: 16px;
   }
 }
 
-/* line 464, F:/New Netmatters/scss/_header.scss */
+/* line 488, F:/New Netmatters/scss/_header.scss */
 .subnav:hover .second-nav-content {
   display: flex;
   justify-content: center;
@@ -1063,7 +1062,7 @@ ul {
   color: #333645;
   background-color: #fff;
   border: 1px solid #ccc;
-  border-radius: 2px;
+  border-radius: 3px;
   padding: 30px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }

@@ -284,7 +284,7 @@ header{
   }
 
   #navbar a{
-  	font-size: 18px;
+  	//font-size: 18px;
   	color: $base-white;
   	text-align: center;
   	text-decoration: none;
@@ -405,26 +405,50 @@ header{
   	}
   }
 
-  .subnav{
-  	.Web-dropdown{
-  		background-color: $design-color-hover;
-  	}
-  	.IT-dropdown{
-  		background-color: $IT-color-hover;
-  	}
-  	.Telecoms-dropdown{
-  		background-color: $telecoms-color-hover;
-  	}
-  	.Software-dropdown{
-  		background-color: $bespoke-color-hover;
-  	}
-  	.Marketing-dropdown{
-  		background-color: $digital-color-hover;
-  	}
-  	.Cyber-dropdown{
-  		background-color: $cyber-color-hover;
-  	}
-  }
+.Web-nav .second-nav-background{
+	background-color: $design-color-hover; 
+}
+
+.IT-nav .second-nav-background{
+	background-color: $IT-color-hover; 
+}
+
+.Telecoms-nav .second-nav-background{
+	background-color: $telecoms-color-hover; 
+}
+
+.Software-nav .second-nav-background{
+	background-color: $bespoke-color-hover; 
+}
+
+.Digital-nav .second-nav-background{
+	background-color: $digital-color-hover; 
+}
+
+.Cyber-nav .second-nav-background{
+	background-color: $cyber-color-hover; 
+}
+
+ // .subnav{
+ // 	.Web-dropdown{
+  //		background-color: $design-color-hover;
+ // 	}
+ // 	.IT-dropdown{
+  //		background-color: $IT-color-hover;
+ // 	}
+ // 	.Telecoms-dropdown{
+ // 		background-color: $telecoms-color-hover;
+ // 	}
+ // 	.Software-dropdown{
+ // 		background-color: $bespoke-color-hover;
+ // 	}
+ // 	.Marketing-dropdown{
+ // 		background-color: $digital-color-hover;
+ // 	}
+ // 	.Cyber-dropdown{
+ // 		background-color: $cyber-color-hover;
+ // 	}
+ // }
 
   .second-nav-content{
   	display: none;
