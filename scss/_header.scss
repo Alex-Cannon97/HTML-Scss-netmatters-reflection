@@ -327,11 +327,11 @@ header{
   	&:hover{
   		text-decoration: none;
   	}
-  	@indlude mq('lg'){
+  	@include mq('lg'){
   		width: 192px;
   	}
   	@include mq('md'){
-  		width: 154.33px;
+  		width: 142px;
   	}
   }
 
@@ -412,7 +412,7 @@ header{
 .second-nav-background{
 	width: 100vw;
 	position: absolute;
-	top: 99px;
+	top: 98px;
 	left: 0;
 	display: flex;
 	flex-direction: row;
@@ -470,7 +470,7 @@ header{
   	align-items: center;
   	z-index: 1;
   	top: 200px;
-  	width: 969px;
+  	width: 952px;
   	height: 44px;
   	font-size: 13px;
   	margin-top: 0px;

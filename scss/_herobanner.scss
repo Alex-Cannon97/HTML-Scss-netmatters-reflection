@@ -6,18 +6,22 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 800px;
+	height: calc(100vh - 209px);
 	@include mq('xs'){
-		min-height: 531px;
+		height: calc(100vh - 168px);
+		min-height: 532px;
 	}
 	@include mq('sm'){
-		min-height: 589px;
+		height: calc(100vh - 110px);
+		min-height: 590px;
 	}
 	@include mq('md'){
+		height: calc(100vh - 209px);
 		min-height: 491px;
 	}
 	@include mq('lg'){
-		min-height: 577px;
+		height: calc(100vh - 209px);
+		min-height: 491px;
 	}
 }
 .hero-content{

@@ -1,10 +1,8 @@
-/* line 170, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients {
   position: absolute;
   display: inline-block;
 }
 
-/* line 142, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box,
 .tooltip-clients .tooltip-point {
   visibility: hidden;
@@ -15,7 +13,6 @@
   z-index: 2;
 }
 
-/* line 151, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box {
   background-color: #333645;
   color: #fff;
@@ -24,19 +21,16 @@
   text-align: center;
 }
 
-/* line 158, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-point {
   background: linear-gradient(-45deg, #333645 45%, transparent 45%);
   transform: rotate(45deg);
 }
 
-/* line 163, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients:hover .tooltip-box,
 .tooltip-clients:hover .tooltip-point {
   visibility: visible;
 }
 
-/* line 172, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box {
   width: 260px;
   min-height: 131px;
@@ -46,7 +40,6 @@
   padding: 20px;
 }
 
-/* line 179, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box span {
   display: block;
   font-size: 1.125rem;
@@ -54,7 +47,6 @@
   line-height: 1.1;
 }
 
-/* line 185, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box .tooltip-line {
   width: 28px;
   height: 3px;
@@ -62,14 +54,12 @@
   margin: auto;
 }
 
-/* line 191, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box p {
   font-size: .8125rem;
   line-height: 1.375rem;
   margin: 11px 0 0;
 }
 
-/* line 197, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-point {
   width: 72px;
   min-height: 72px;
@@ -77,19 +67,16 @@
   margin-bottom: 30px;
 }
 
-/* line 204, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients:hover .tooltip-box,
 .tooltip-clients:hover .tooltip-point {
   opacity: 1;
 }
 
-/* line 170, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients {
   position: absolute;
   display: inline-block;
 }
 
-/* line 142, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box,
 .tooltip-clients .tooltip-point {
   visibility: hidden;
@@ -100,7 +87,6 @@
   z-index: 2;
 }
 
-/* line 151, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box {
   background-color: #333645;
   color: #fff;
@@ -109,19 +95,16 @@
   text-align: center;
 }
 
-/* line 158, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-point {
   background: linear-gradient(-45deg, #333645 45%, transparent 45%);
   transform: rotate(45deg);
 }
 
-/* line 163, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients:hover .tooltip-box,
 .tooltip-clients:hover .tooltip-point {
   visibility: visible;
 }
 
-/* line 172, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box {
   width: 260px;
   min-height: 131px;
@@ -131,7 +114,6 @@
   padding: 20px;
 }
 
-/* line 179, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box span {
   display: block;
   font-size: 1.125rem;
@@ -139,7 +121,6 @@
   line-height: 1.1;
 }
 
-/* line 185, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box .tooltip-line {
   width: 28px;
   height: 3px;
@@ -147,14 +128,12 @@
   margin: auto;
 }
 
-/* line 191, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-box p {
   font-size: .8125rem;
   line-height: 1.375rem;
   margin: 11px 0 0;
 }
 
-/* line 197, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients .tooltip-point {
   width: 72px;
   min-height: 72px;
@@ -162,13 +141,11 @@
   margin-bottom: 30px;
 }
 
-/* line 204, F:/New Netmatters/scss/_variables&mixins.scss */
 .tooltip-clients:hover .tooltip-box,
 .tooltip-clients:hover .tooltip-point {
   opacity: 1;
 }
 
-/* line 3, F:/New Netmatters/scss/_header.scss */
 header {
   display: flex;
   flex-wrap: wrap;
@@ -177,27 +154,23 @@ header {
 }
 
 @media (max-width: 767px) {
-  /* line 3, F:/New Netmatters/scss/_header.scss */
   header {
     padding: 20px 15px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 3, F:/New Netmatters/scss/_header.scss */
   header {
     padding: 20px 0;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 3, F:/New Netmatters/scss/_header.scss */
   header {
     padding: 20px 0 0;
   }
 }
 
-/* line 19, F:/New Netmatters/scss/_header.scss */
 .top-nav {
   display: flex;
   align-items: center;
@@ -207,7 +180,6 @@ header {
 }
 
 @media (max-width: 767px) {
-  /* line 19, F:/New Netmatters/scss/_header.scss */
   .top-nav {
     width: 100%;
     max-width: 100%;
@@ -215,7 +187,6 @@ header {
 }
 
 @media (min-width: 768px) {
-  /* line 19, F:/New Netmatters/scss/_header.scss */
   .top-nav {
     margin: auto;
     width: 720px;
@@ -224,7 +195,6 @@ header {
 }
 
 @media (min-width: 992px) {
-  /* line 19, F:/New Netmatters/scss/_header.scss */
   .top-nav {
     width: 940px;
     max-width: 940px;
@@ -232,27 +202,23 @@ header {
 }
 
 @media (min-width: 1260px) {
-  /* line 19, F:/New Netmatters/scss/_header.scss */
   .top-nav {
     width: 1170px;
     max-width: 1170px;
   }
 }
 
-/* line 44, F:/New Netmatters/scss/_header.scss */
 .header-logo {
   display: flex;
   align-items: center;
 }
 
-/* line 47, F:/New Netmatters/scss/_header.scss */
 .header-logo img {
   flex: 1 1;
   max-width: 100%;
 }
 
 @media (max-width: 767px) {
-  /* line 44, F:/New Netmatters/scss/_header.scss */
   .header-logo {
     flex: 1 1 50%;
     max-width: 402px;
@@ -260,7 +226,6 @@ header {
 }
 
 @media (min-width: 768px) {
-  /* line 44, F:/New Netmatters/scss/_header.scss */
   .header-logo {
     flex: 1 1 50%;
     max-width: 345px;
@@ -269,26 +234,22 @@ header {
 }
 
 @media (min-width: 992px) {
-  /* line 44, F:/New Netmatters/scss/_header.scss */
   .header-logo {
     max-width: 374.16px;
   }
 }
 
 @media (min-width: 1260px) {
-  /* line 44, F:/New Netmatters/scss/_header.scss */
   .header-logo {
     max-width: 370px;
   }
 }
 
-/* line 68, F:/New Netmatters/scss/_header.scss */
 #main-nav {
   display: flex;
 }
 
 @media (max-width: 767px) {
-  /* line 68, F:/New Netmatters/scss/_header.scss */
   #main-nav {
     justify-content: space-between;
     flex: 1 0 148.03px;
@@ -302,7 +263,6 @@ header {
 }
 
 @media (min-width: 768px) {
-  /* line 68, F:/New Netmatters/scss/_header.scss */
   #main-nav {
     justify-content: flex-end;
     flex-basis: 340.03;
@@ -312,7 +272,6 @@ header {
 }
 
 @media (min-width: 992px) {
-  /* line 68, F:/New Netmatters/scss/_header.scss */
   #main-nav {
     flex-basis: 565.83px;
     max-width: 565.83;
@@ -320,7 +279,6 @@ header {
 }
 
 @media (min-width: 1260px) {
-  /* line 68, F:/New Netmatters/scss/_header.scss */
   #main-nav {
     flex-basis: 800px;
     max-width: 800px;
@@ -328,7 +286,6 @@ header {
 }
 
 @media (max-width: 767px) {
-  /* line 97, F:/New Netmatters/scss/_header.scss */
   .hidden-phone {
     display: flex;
     flex-basis: 24px;
@@ -336,18 +293,15 @@ header {
     background: none;
     align-items: center;
   }
-  /* line 104, F:/New Netmatters/scss/_header.scss */
   .hidden-phone .fas {
     font-size: 24px;
     color: #333645;
     padding: 2px 3px 3px 4px;
     border-bottom: 3px solid transparent;
   }
-  /* line 110, F:/New Netmatters/scss/_header.scss */
   .hidden-phone:hover {
     cursor: pointer;
   }
-  /* line 112, F:/New Netmatters/scss/_header.scss */
   .hidden-phone:hover .fas {
     color: #22242e;
     border-bottom: 3px solid #22242e;
@@ -355,26 +309,22 @@ header {
 }
 
 @media (min-width: 768px) {
-  /* line 97, F:/New Netmatters/scss/_header.scss */
   .hidden-phone {
     display: none;
   }
 }
 
-/* line 123, F:/New Netmatters/scss/_header.scss */
 .search-bar {
   height: 56px;
   position: relative;
 }
 
-/* line 126, F:/New Netmatters/scss/_header.scss */
 .search-bar .fas {
   color: #fff;
   font-size: 23px;
   margin-left: 1px;
 }
 
-/* line 131, F:/New Netmatters/scss/_header.scss */
 .search-bar input[type="search"] {
   width: 174px;
   position: absolute;
@@ -389,27 +339,23 @@ header {
   color: #666;
 }
 
-/* line 143, F:/New Netmatters/scss/_header.scss */
 .search-bar input[type="search"]:focus {
   outline: none;
   border: 1px solid #5bc0de;
   box-shadow: 0px 0px 8px rgba(91, 192, 222, 0.6);
 }
 
-/* line 148, F:/New Netmatters/scss/_header.scss */
 .search-bar input[type="search"]::placeholder {
   color: rgba(102, 102, 102, 0.75);
 }
 
 @media (min-width: 992px) {
-  /* line 131, F:/New Netmatters/scss/_header.scss */
   .search-bar input[type="search"] {
     display: none;
   }
 }
 
 @media (min-width: 1260px) {
-  /* line 131, F:/New Netmatters/scss/_header.scss */
   .search-bar input[type="search"] {
     display: inline-block;
     width: 240px;
@@ -417,14 +363,12 @@ header {
 }
 
 @media (max-width: 767px) {
-  /* line 123, F:/New Netmatters/scss/_header.scss */
   .search-bar {
     display: none;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 123, F:/New Netmatters/scss/_header.scss */
   .search-bar {
     display: inline-block;
     width: 237px;
@@ -432,21 +376,18 @@ header {
 }
 
 @media (min-width: 992px) {
-  /* line 123, F:/New Netmatters/scss/_header.scss */
   .search-bar {
     width: 63px;
   }
 }
 
 @media (min-width: 1260px) {
-  /* line 123, F:/New Netmatters/scss/_header.scss */
   .search-bar {
     width: 303px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 174, F:/New Netmatters/scss/_header.scss */
   #xs-search {
     display: flex;
     flex: 0 0 100%;
@@ -460,7 +401,6 @@ header {
     align-items: center;
     margin-top: 11px;
   }
-  /* line 187, F:/New Netmatters/scss/_header.scss */
   #xs-search input[type="search"] {
     background: none;
     padding-left: 15px;
@@ -473,15 +413,12 @@ header {
     font-family: "Poppins", "Helvetica", "Arial", sans-serif;
     color: #666;
   }
-  /* line 198, F:/New Netmatters/scss/_header.scss */
   #xs-search input[type="search"]:focus {
     outline: none;
   }
-  /* line 201, F:/New Netmatters/scss/_header.scss */
   #xs-search input[type="search"]::placeholder {
     color: rgba(102, 102, 102, 0.75);
   }
-  /* line 205, F:/New Netmatters/scss/_header.scss */
   #xs-search .fas {
     font-size: 20px;
     color: #333645;
@@ -489,13 +426,11 @@ header {
 }
 
 @media (min-width: 768px) {
-  /* line 174, F:/New Netmatters/scss/_header.scss */
   #xs-search {
     display: none;
   }
 }
 
-/* line 215, F:/New Netmatters/scss/_header.scss */
 .burger-icon {
   display: flex;
   max-width: 63.03px;
@@ -511,7 +446,6 @@ header {
   font-size: .75rem;
 }
 
-/* line 228, F:/New Netmatters/scss/_header.scss */
 .burger-icon .menu-title {
   font-family: poppins,sans-serif;
   margin: 0 -1px 0 0;
@@ -519,7 +453,6 @@ header {
   font-size: 12px;
 }
 
-/* line 234, F:/New Netmatters/scss/_header.scss */
 .burger-icon #burger-lines {
   display: flex;
   flex-direction: column;
@@ -529,7 +462,6 @@ header {
   margin: 6px auto 8px;
 }
 
-/* line 241, F:/New Netmatters/scss/_header.scss */
 .burger-icon #burger-lines .burger-line {
   width: 33px;
   height: 3px;
@@ -537,30 +469,25 @@ header {
   margin-bottom: 5px;
 }
 
-/* line 246, F:/New Netmatters/scss/_header.scss */
 .burger-icon #burger-lines .burger-line:last-child {
   margin-bottom: -12px;
 }
 
-/* line 251, F:/New Netmatters/scss/_header.scss */
 .burger-icon:hover {
   cursor: pointer;
   background-color: #22242e;
 }
 
-/* line 254, F:/New Netmatters/scss/_header.scss */
 .burger-icon:hover a {
   text-decoration: none;
 }
 
 @media (min-width: 768px) {
-  /* line 260, F:/New Netmatters/scss/_header.scss */
   .contact-button {
     display: none;
   }
 }
 
-/* line 266, F:/New Netmatters/scss/_header.scss */
 #navbar {
   position: relative;
   display: none;
@@ -568,7 +495,6 @@ header {
 }
 
 @media (min-width: 992px) {
-  /* line 266, F:/New Netmatters/scss/_header.scss */
   #navbar {
     display: flex;
     width: 100vw;
@@ -581,13 +507,11 @@ header {
 }
 
 @media (min-width: 1260px) {
-  /* line 281, F:/New Netmatters/scss/_header.scss */
   #navbar .second-nav-btn {
     width: 194.67px;
   }
 }
 
-/* line 287, F:/New Netmatters/scss/_header.scss */
 #navbar a {
   color: #fff;
   text-align: center;
@@ -595,12 +519,10 @@ header {
   text-transform: uppercase;
 }
 
-/* line 295, F:/New Netmatters/scss/_header.scss */
 .subnav {
   overflow: hidden;
 }
 
-/* line 299, F:/New Netmatters/scss/_header.scss */
 .subnav .second-nav-btn {
   display: flex;
   font-size: 18px;
@@ -613,14 +535,12 @@ header {
   font-family: poppins, sans-serif;
 }
 
-/* line 309, F:/New Netmatters/scss/_header.scss */
 .subnav .second-nav-btn span {
   font-size: 10px;
   padding: 5px 0 1px;
   line-height: .3;
 }
 
-/* line 317, F:/New Netmatters/scss/_header.scss */
 .nav-bar-tile {
   display: flex;
   flex-direction: column;
@@ -629,180 +549,148 @@ header {
   width: 154px;
 }
 
-/* line 323, F:/New Netmatters/scss/_header.scss */
 .nav-bar-tile .fas {
   font-size: 20px;
   margin: 5px auto 8px;
 }
 
-/* line 327, F:/New Netmatters/scss/_header.scss */
 .nav-bar-tile:hover {
   text-decoration: none;
 }
 
-@indlude mq('lg') {
-  /* line 317, F:/New Netmatters/scss/_header.scss */
+@media (min-width: 1260px) {
   .nav-bar-tile {
     width: 192px;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 317, F:/New Netmatters/scss/_header.scss */
   .nav-bar-tile {
-    width: 154.33px;
+    width: 142px;
   }
 }
 
-/* line 338, F:/New Netmatters/scss/_header.scss */
 .Web-nav {
   border-left: 1px solid #484a58;
 }
 
-/* line 340, F:/New Netmatters/scss/_header.scss */
 .Web-nav .fas {
   color: #926fb1;
 }
 
-/* line 343, F:/New Netmatters/scss/_header.scss */
 .Web-nav:hover {
   background-color: #926fb1;
 }
 
-/* line 345, F:/New Netmatters/scss/_header.scss */
 .Web-nav:hover .fas {
   color: #fff;
 }
 
-/* line 352, F:/New Netmatters/scss/_header.scss */
 .IT-nav .fas {
   color: #4183d7;
 }
 
-/* line 355, F:/New Netmatters/scss/_header.scss */
 .IT-nav:hover {
   background-color: #4183d7;
 }
 
-/* line 357, F:/New Netmatters/scss/_header.scss */
 .IT-nav:hover .fas {
   color: #fff;
 }
 
-/* line 364, F:/New Netmatters/scss/_header.scss */
 .Telecoms-nav .fas {
   color: #d64541;
 }
 
-/* line 367, F:/New Netmatters/scss/_header.scss */
 .Telecoms-nav:hover {
   background-color: #d64541;
 }
 
-/* line 369, F:/New Netmatters/scss/_header.scss */
 .Telecoms-nav:hover .fas {
   color: #fff;
 }
 
-/* line 376, F:/New Netmatters/scss/_header.scss */
 .Software-nav .fas {
   color: #67809f;
 }
 
-/* line 379, F:/New Netmatters/scss/_header.scss */
 .Software-nav:hover {
   background-color: #67809f;
 }
 
-/* line 381, F:/New Netmatters/scss/_header.scss */
 .Software-nav:hover .fas {
   color: #fff;
 }
 
-/* line 388, F:/New Netmatters/scss/_header.scss */
 .Digital-nav .fas {
   color: #2ecc71;
 }
 
-/* line 391, F:/New Netmatters/scss/_header.scss */
 .Digital-nav:hover {
   background-color: #2ecc71;
 }
 
-/* line 393, F:/New Netmatters/scss/_header.scss */
 .Digital-nav:hover .fas {
   color: #fff;
 }
 
-/* line 399, F:/New Netmatters/scss/_header.scss */
 .Cyber-nav {
   border-right: 1px solid rgba(0, 0, 0, 0.25);
 }
 
-/* line 401, F:/New Netmatters/scss/_header.scss */
 .Cyber-nav .fas {
   color: #f62459;
 }
 
-/* line 404, F:/New Netmatters/scss/_header.scss */
 .Cyber-nav:hover {
   background-color: #f62459;
 }
 
-/* line 406, F:/New Netmatters/scss/_header.scss */
 .Cyber-nav:hover .fas {
   color: #fff;
 }
 
-/* line 412, F:/New Netmatters/scss/_header.scss */
 .second-nav-background {
   width: 100vw;
   position: absolute;
-  top: 99px;
+  top: 98px;
   left: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-/* line 422, F:/New Netmatters/scss/_header.scss */
 .Web-nav .second-nav-background {
   background-color: #7e57a0;
 }
 
-/* line 426, F:/New Netmatters/scss/_header.scss */
 .IT-nav .second-nav-background {
   background-color: #2a6ec6;
 }
 
-/* line 430, F:/New Netmatters/scss/_header.scss */
 .Telecoms-nav .second-nav-background {
   background-color: #bc2c28;
 }
 
-/* line 434, F:/New Netmatters/scss/_header.scss */
 .Software-nav .second-nav-background {
   background-color: #566c88;
 }
 
-/* line 438, F:/New Netmatters/scss/_header.scss */
 .Digital-nav .second-nav-background {
   background-color: #25a25a;
 }
 
-/* line 442, F:/New Netmatters/scss/_header.scss */
 .Cyber-nav .second-nav-background {
   background-color: #de093f;
 }
 
-/* line 467, F:/New Netmatters/scss/_header.scss */
 .second-nav-content {
   display: none;
   left: 0;
   align-items: center;
   z-index: 1;
   top: 200px;
-  width: 969px;
+  width: 952px;
   height: 44px;
   font-size: 13px;
   margin-top: 0px;
@@ -810,13 +698,11 @@ header {
 }
 
 @media (min-width: 1260px) {
-  /* line 467, F:/New Netmatters/scss/_header.scss */
   .second-nav-content {
     width: 1185px;
   }
 }
 
-/* line 483, F:/New Netmatters/scss/_header.scss */
 .second-nav-content a {
   float: left;
   color: white;
@@ -824,7 +710,6 @@ header {
   font-size: 13px;
 }
 
-/* line 488, F:/New Netmatters/scss/_header.scss */
 .second-nav-content a:after {
   content: "-";
   padding-left: 24px;
@@ -832,36 +717,30 @@ header {
 }
 
 @media (min-width: 1260px) {
-  /* line 488, F:/New Netmatters/scss/_header.scss */
   .second-nav-content a:after {
     padding-left: 30px;
     padding-right: 30px;
   }
 }
 
-/* line 497, F:/New Netmatters/scss/_header.scss */
 .second-nav-content a:last-child::after {
   display: none;
 }
 
 @media (min-width: 1260px) {
-  /* line 483, F:/New Netmatters/scss/_header.scss */
   .second-nav-content a {
     font-size: 16px;
   }
 }
 
-/* line 504, F:/New Netmatters/scss/_header.scss */
 .subnav:hover .second-nav-content {
   display: flex;
 }
 
-/* line 3, F:/New Netmatters/scss/_body.scss */
 * {
   box-sizing: Border-box;
 }
 
-/* line 7, F:/New Netmatters/scss/_body.scss */
 body {
   font-family: "Poppins", "Helvetica", "Arial", sans-serif;
   font-size: 1rem;
@@ -873,19 +752,16 @@ body {
   margin-top: 0;
 }
 
-/* line 18, F:/New Netmatters/scss/_body.scss */
 a {
   text-decoration: none;
   color: inherit;
   display: block;
 }
 
-/* line 22, F:/New Netmatters/scss/_body.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 27, F:/New Netmatters/scss/_body.scss */
 h1 {
   color: #fff;
   font-size: 3rem;
@@ -893,7 +769,6 @@ h1 {
   text-transform: uppercase;
 }
 
-/* line 34, F:/New Netmatters/scss/_body.scss */
 h2 {
   color: #fff;
   font-size: 2.25rem;
@@ -901,75 +776,68 @@ h2 {
   text-transform: uppercase;
 }
 
-/* line 41, F:/New Netmatters/scss/_body.scss */
 strong {
   font-weight: 600;
 }
 
-/* line 45, F:/New Netmatters/scss/_body.scss */
 ul {
   list-style: none;
 }
 
-/* line 3, F:/New Netmatters/scss/_herobanner.scss */
 .hero-banner {
   background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url("../images/hero-image.PNG"), url("../images/hero-image-ie.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  height: calc(100vh - 209px);
 }
 
 @media (max-width: 767px) {
-  /* line 3, F:/New Netmatters/scss/_herobanner.scss */
   .hero-banner {
-    min-height: 531px;
+    height: calc(100vh - 168px);
+    min-height: 532px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 3, F:/New Netmatters/scss/_herobanner.scss */
   .hero-banner {
-    min-height: 589px;
+    height: calc(100vh - 110px);
+    min-height: 590px;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 3, F:/New Netmatters/scss/_herobanner.scss */
   .hero-banner {
+    height: calc(100vh - 209px);
     min-height: 491px;
   }
 }
 
 @media (min-width: 1260px) {
-  /* line 3, F:/New Netmatters/scss/_herobanner.scss */
   .hero-banner {
-    min-height: 577px;
+    height: calc(100vh - 209px);
+    min-height: 491px;
   }
 }
 
-/* line 23, F:/New Netmatters/scss/_herobanner.scss */
 .hero-content {
   width: 100%;
   align-content: center;
 }
 
 @media (min-width: 992px) {
-  /* line 23, F:/New Netmatters/scss/_herobanner.scss */
   .hero-content {
     width: 940px;
   }
 }
 
 @media (min-width: 1260px) {
-  /* line 23, F:/New Netmatters/scss/_herobanner.scss */
   .hero-content {
     width: 1170px;
   }
 }
 
-/* line 35, F:/New Netmatters/scss/_herobanner.scss */
 .hero-text {
   width: 100%;
   font-family: poppins, sans-serif;
@@ -979,21 +847,18 @@ ul {
   margin: -1px auto 0;
 }
 
-/* line 42, F:/New Netmatters/scss/_herobanner.scss */
 .hero-text h1 {
   font-size: 48px;
   font-weight: 400;
   margin: 0 0 25px 0;
 }
 
-/* line 47, F:/New Netmatters/scss/_herobanner.scss */
 .hero-text p {
   font-size: 1.25rem;
   line-height: 2.25rem;
   margin: 0 0 35px;
 }
 
-/* line 52, F:/New Netmatters/scss/_herobanner.scss */
 .hero-text span {
   font-weight: 400;
   line-height: 50px;
@@ -1001,7 +866,6 @@ ul {
 }
 
 @media (min-width: 992px) {
-  /* line 35, F:/New Netmatters/scss/_herobanner.scss */
   .hero-text {
     text-align: left;
     margin-left: 0;
@@ -1009,20 +873,17 @@ ul {
 }
 
 @media (max-width: 767px) {
-  /* line 3, F:/New Netmatters/scss/_service-cards.scss */
   #service-cards {
     padding: 50px 0;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 3, F:/New Netmatters/scss/_service-cards.scss */
   #service-cards {
     padding: 50px 0;
   }
 }
 
-/* line 12, F:/New Netmatters/scss/_service-cards.scss */
 .card-content {
   display: flex;
   flex-flow: wrap;
@@ -1031,34 +892,29 @@ ul {
 }
 
 @media (max-width: 767px) {
-  /* line 12, F:/New Netmatters/scss/_service-cards.scss */
   .card-content {
     width: 100%;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 12, F:/New Netmatters/scss/_service-cards.scss */
   .card-content {
     width: 750px;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 12, F:/New Netmatters/scss/_service-cards.scss */
   .card-content {
     width: 970px;
   }
 }
 
 @media (min-width: 1260px) {
-  /* line 12, F:/New Netmatters/scss/_service-cards.scss */
   .card-content {
     width: 1200px;
   }
 }
 
-/* line 31, F:/New Netmatters/scss/_service-cards.scss */
 .card-icon {
   display: flex;
   justify-content: center;
@@ -1072,7 +928,6 @@ ul {
   margin: 0 auto 17px;
 }
 
-/* line 44, F:/New Netmatters/scss/_service-cards.scss */
 .card {
   display: flex;
   flex-direction: column;
@@ -1087,278 +942,228 @@ ul {
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }
 
-/* line 104, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Bespoke .card-icon {
   Background-color: #67809f;
 }
 
-/* line 107, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Bespoke .fas {
   color: #fff;
 }
 
-/* line 110, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Bespoke .btn-card {
   color: #fff;
   background-color: #67809f;
 }
 
-/* line 116, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Bespoke:hover {
   color: #fff;
   background-color: #67809f;
   border-color: #67809f;
 }
 
-/* line 120, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Bespoke:hover .card-icon {
   background-color: #fff;
 }
 
-/* line 123, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Bespoke:hover .fas {
   color: #67809f;
 }
 
-/* line 126, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Bespoke:hover .line {
   background-color: #fff;
 }
 
-/* line 129, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Bespoke:hover .btn-card {
   color: #67809f;
   background-color: #fff;
 }
 
-/* line 104, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-IT .card-icon {
   Background-color: #4183d7;
 }
 
-/* line 107, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-IT .fas {
   color: #fff;
 }
 
-/* line 110, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-IT .btn-card {
   color: #fff;
   background-color: #4183d7;
 }
 
-/* line 116, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-IT:hover {
   color: #fff;
   background-color: #4183d7;
   border-color: #4183d7;
 }
 
-/* line 120, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-IT:hover .card-icon {
   background-color: #fff;
 }
 
-/* line 123, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-IT:hover .fas {
   color: #4183d7;
 }
 
-/* line 126, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-IT:hover .line {
   background-color: #fff;
 }
 
-/* line 129, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-IT:hover .btn-card {
   color: #4183d7;
   background-color: #fff;
 }
 
-/* line 104, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Digital .card-icon {
   Background-color: #2ecc71;
 }
 
-/* line 107, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Digital .fas {
   color: #fff;
 }
 
-/* line 110, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Digital .btn-card {
   color: #fff;
   background-color: #2ecc71;
 }
 
-/* line 116, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Digital:hover {
   color: #fff;
   background-color: #2ecc71;
   border-color: #2ecc71;
 }
 
-/* line 120, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Digital:hover .card-icon {
   background-color: #fff;
 }
 
-/* line 123, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Digital:hover .fas {
   color: #2ecc71;
 }
 
-/* line 126, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Digital:hover .line {
   background-color: #fff;
 }
 
-/* line 129, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Digital:hover .btn-card {
   color: #2ecc71;
   background-color: #fff;
 }
 
-/* line 104, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Telecoms .card-icon {
   Background-color: #d64541;
 }
 
-/* line 107, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Telecoms .fas {
   color: #fff;
 }
 
-/* line 110, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Telecoms .btn-card {
   color: #fff;
   background-color: #d64541;
 }
 
-/* line 116, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Telecoms:hover {
   color: #fff;
   background-color: #d64541;
   border-color: #d64541;
 }
 
-/* line 120, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Telecoms:hover .card-icon {
   background-color: #fff;
 }
 
-/* line 123, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Telecoms:hover .fas {
   color: #d64541;
 }
 
-/* line 126, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Telecoms:hover .line {
   background-color: #fff;
 }
 
-/* line 129, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Telecoms:hover .btn-card {
   color: #d64541;
   background-color: #fff;
 }
 
-/* line 104, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Web .card-icon {
   Background-color: #926fb1;
 }
 
-/* line 107, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Web .fas {
   color: #fff;
 }
 
-/* line 110, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Web .btn-card {
   color: #fff;
   background-color: #926fb1;
 }
 
-/* line 116, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Web:hover {
   color: #fff;
   background-color: #926fb1;
   border-color: #926fb1;
 }
 
-/* line 120, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Web:hover .card-icon {
   background-color: #fff;
 }
 
-/* line 123, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Web:hover .fas {
   color: #926fb1;
 }
 
-/* line 126, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Web:hover .line {
   background-color: #fff;
 }
 
-/* line 129, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Web:hover .btn-card {
   color: #926fb1;
   background-color: #fff;
 }
 
-/* line 104, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Cyber .card-icon {
   Background-color: #f62459;
 }
 
-/* line 107, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Cyber .fas {
   color: #fff;
 }
 
-/* line 110, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Cyber .btn-card {
   color: #fff;
   background-color: #f62459;
 }
 
-/* line 116, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Cyber:hover {
   color: #fff;
   background-color: #f62459;
   border-color: #f62459;
 }
 
-/* line 120, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Cyber:hover .card-icon {
   background-color: #fff;
 }
 
-/* line 123, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Cyber:hover .fas {
   color: #f62459;
 }
 
-/* line 126, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Cyber:hover .line {
   background-color: #fff;
 }
 
-/* line 129, F:/New Netmatters/scss/_variables&mixins.scss */
 .card-Cyber:hover .btn-card {
   color: #f62459;
   background-color: #fff;
 }
 
-/* line 57, F:/New Netmatters/scss/_service-cards.scss */
 .card h3 {
   font-size: 1.125rem;
   margin: 0 0 13px;
   font-weight: 400;
 }
 
-/* line 62, F:/New Netmatters/scss/_service-cards.scss */
 .card .line {
   width: 28px;
   height: 3px;
@@ -1367,7 +1172,6 @@ ul {
   margin: 0 auto;
 }
 
-/* line 69, F:/New Netmatters/scss/_service-cards.scss */
 .card p {
   font-size: .8125rem;
   line-height: 1.375rem;
@@ -1375,25 +1179,21 @@ ul {
   font-weight: 400;
 }
 
-/* line 75, F:/New Netmatters/scss/_service-cards.scss */
 .card:hover {
   text-decoration: none;
 }
 
 @media (max-width: 767px) {
-  /* line 44, F:/New Netmatters/scss/_service-cards.scss */
   .card {
     flex: 1 1 100%;
     max-width: 100%;
   }
-  /* line 81, F:/New Netmatters/scss/_service-cards.scss */
   .card:last-child {
     margin-bottom: 0;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 44, F:/New Netmatters/scss/_service-cards.scss */
   .card {
     max-width: 720px;
     flex-basis: 720px;
@@ -1401,24 +1201,20 @@ ul {
     margin-left: 15px;
     margin-right: 15px;
   }
-  /* line 91, F:/New Netmatters/scss/_service-cards.scss */
   .card:nth-child(n+4) {
     flex-basis: 345px;
     max-width: 345px;
   }
-  /* line 95, F:/New Netmatters/scss/_service-cards.scss */
   .card:nth-child(n+6) {
     margin-bottom: 0;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 44, F:/New Netmatters/scss/_service-cards.scss */
   .card {
     max-width: 293.33px;
     flex-basis: 293.33px;
   }
-  /* line 102, F:/New Netmatters/scss/_service-cards.scss */
   .card:nth-child(n+4) {
     flex-basis: 455px;
     max-width: 455px;
@@ -1426,12 +1222,10 @@ ul {
 }
 
 @media (min-width: 1260px) {
-  /* line 44, F:/New Netmatters/scss/_service-cards.scss */
   .card {
     max-width: 370px;
     flex-basis: 370px;
   }
-  /* line 110, F:/New Netmatters/scss/_service-cards.scss */
   .card:nth-child(n+4) {
     max-width: 270px;
     flex-basis: 270px;
@@ -1439,7 +1233,6 @@ ul {
   }
 }
 
-/* line 118, F:/New Netmatters/scss/_service-cards.scss */
 #service-cards .btn-card {
   width: 130px;
   padding: 0;
@@ -1448,7 +1241,6 @@ ul {
   line-height: 47px;
 }
 
-/* line 3, F:/New Netmatters/scss/_buttons.scss */
 .btn {
   display: inline-block;
   height: auto;
@@ -1461,12 +1253,10 @@ ul {
   text-decoration: none;
 }
 
-/* line 13, F:/New Netmatters/scss/_buttons.scss */
 .btn:hover {
   text-decoration: none;
 }
 
-/* line 18, F:/New Netmatters/scss/_buttons.scss */
 .support-button {
   width: 144.61px;
   height: 56px;
@@ -1479,38 +1269,32 @@ ul {
   font-weight: 400;
 }
 
-/* line 28, F:/New Netmatters/scss/_buttons.scss */
 .support-button:hover {
   background-color: #2a6ec6;
 }
 
 @media (max-width: 767px) {
-  /* line 18, F:/New Netmatters/scss/_buttons.scss */
   .support-button {
     display: none;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 18, F:/New Netmatters/scss/_buttons.scss */
   .support-button {
     display: none;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 18, F:/New Netmatters/scss/_buttons.scss */
   .support-button {
     display: inline;
   }
 }
 
-/* line 40, F:/New Netmatters/scss/_buttons.scss */
 .support-button .fas {
   font-size: 20px;
 }
 
-/* line 45, F:/New Netmatters/scss/_buttons.scss */
 .contact-button {
   width: 152.42px;
   height: 56px;
@@ -1523,38 +1307,32 @@ ul {
   font-weight: 400;
 }
 
-/* line 55, F:/New Netmatters/scss/_buttons.scss */
 .contact-button:hover {
   background-color: #84858f;
 }
 
 @media (max-width: 767px) {
-  /* line 45, F:/New Netmatters/scss/_buttons.scss */
   .contact-button {
     display: none;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 45, F:/New Netmatters/scss/_buttons.scss */
   .contact-button {
     display: none;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 45, F:/New Netmatters/scss/_buttons.scss */
   .contact-button {
     display: inline;
   }
 }
 
-/* line 67, F:/New Netmatters/scss/_buttons.scss */
 .contact-button .fas {
   font-size: 20px;
 }
 
-/* line 72, F:/New Netmatters/scss/_buttons.scss */
 .btn-search {
   position: absolute;
   left: 174px;
@@ -1567,14 +1345,12 @@ ul {
   border-bottom-left-radius: 0;
 }
 
-/* line 82, F:/New Netmatters/scss/_buttons.scss */
 .btn-search:hover {
   cursor: pointer;
   background-color: #84858f;
 }
 
 @media (min-width: 992px) {
-  /* line 72, F:/New Netmatters/scss/_buttons.scss */
   .btn-search {
     border-radius: 3px;
     left: 0;
@@ -1582,7 +1358,6 @@ ul {
 }
 
 @media (min-width: 1260px) {
-  /* line 72, F:/New Netmatters/scss/_buttons.scss */
   .btn-search {
     left: 240px;
     border-top-left-radius: 0;
@@ -1590,43 +1365,36 @@ ul {
   }
 }
 
-/* line 97, F:/New Netmatters/scss/_buttons.scss */
 .btn-hero {
   background-color: #926fb1;
   color: #fff;
   padding: 5px 20px;
 }
 
-/* line 102, F:/New Netmatters/scss/_buttons.scss */
 .btn-hero .fas {
   margin: 0 -4px 0 12px;
   padding-right: 1px;
 }
 
-/* line 106, F:/New Netmatters/scss/_buttons.scss */
 .btn-hero:hover {
   background-color: #7e57a0;
 }
 
-/* line 111, F:/New Netmatters/scss/_buttons.scss */
 .btn-brand {
   background-color: #fff;
   color: #333645;
   padding: 5px 15px;
 }
 
-/* line 115, F:/New Netmatters/scss/_buttons.scss */
 .btn-brand .fas {
   margin: 0 -4px 0 12px;
   padding: 0 1px;
 }
 
-/* line 119, F:/New Netmatters/scss/_buttons.scss */
 .btn-brand:hover {
   background-color: #ebebeb;
 }
 
-/* line 124, F:/New Netmatters/scss/_buttons.scss */
 .btn-read-more {
   width: 129.73px;
   height: 47px;
@@ -1636,37 +1404,30 @@ ul {
   font-weight: 400;
 }
 
-/* line 133, F:/New Netmatters/scss/_buttons.scss */
 .btn-bespoke {
   background-color: #67809f;
 }
 
-/* line 135, F:/New Netmatters/scss/_buttons.scss */
 .btn-bespoke:hover {
   background-color: #566c88;
 }
 
-/* line 140, F:/New Netmatters/scss/_buttons.scss */
 .btn-design {
   background-color: #926fb1;
 }
 
-/* line 142, F:/New Netmatters/scss/_buttons.scss */
 .btn-design:hover {
   background-color: #7e57a0;
 }
 
-/* line 147, F:/New Netmatters/scss/_buttons.scss */
 .btn-telecoms {
   background-color: #d64541;
 }
 
-/* line 149, F:/New Netmatters/scss/_buttons.scss */
 .btn-telecoms:hover {
   background-color: #bc2c28;
 }
 
-/* line 154, F:/New Netmatters/scss/_buttons.scss */
 .btn-subscribe {
   background-color: #333645;
   color: #fff;
@@ -1675,13 +1436,11 @@ ul {
   font-family: "Poppins", "Helvetica", "Arial", sans-serif;
 }
 
-/* line 160, F:/New Netmatters/scss/_buttons.scss */
 .btn-subscribe:hover {
   background-color: #22242e;
   cursor: pointer;
 }
 
-/* line 3, F:/New Netmatters/scss/_brand.scss */
 .hero-brand {
   background-color: #333645;
   color: #fff;
@@ -1689,7 +1448,6 @@ ul {
 }
 
 @media (min-width: 992px) {
-  /* line 3, F:/New Netmatters/scss/_brand.scss */
   .hero-brand {
     background-image: url("../images/brand.PNG");
     background-size: cover;
@@ -1698,19 +1456,16 @@ ul {
   }
 }
 
-/* line 13, F:/New Netmatters/scss/_brand.scss */
 .hero-brand h2 {
   margin: -6px 0 28px;
 }
 
-/* line 16, F:/New Netmatters/scss/_brand.scss */
 .hero-brand p {
   line-height: 1.875rem;
   margin-bottom: 25px;
 }
 
 @media (min-width: 768px) {
-  /* line 21, F:/New Netmatters/scss/_brand.scss */
   .hero-brand .hero-brand-content {
     max-width: 720px;
     margin: auto;
@@ -1718,28 +1473,23 @@ ul {
 }
 
 @media (min-width: 992px) {
-  /* line 27, F:/New Netmatters/scss/_brand.scss */
   .hero-brand .hero-brand-content {
     max-width: 940px;
   }
 }
 
 @media (min-width: 1260px) {
-  /* line 3, F:/New Netmatters/scss/_brand.scss */
   .hero-brand {
     background-size: auto 100%;
   }
-  /* line 33, F:/New Netmatters/scss/_brand.scss */
   .hero-brand .hero-brand-content {
     max-width: 1170px;
   }
-  /* line 35, F:/New Netmatters/scss/_brand.scss */
   .hero-brand .hero-brand-content p {
     max-width: 570px;
   }
 }
 
-/* line 1, F:/New Netmatters/scss/_newscards.scss */
 #news-tag {
   display: flex;
   background-color: #fff;
@@ -1747,7 +1497,6 @@ ul {
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }
 
-/* line 6, F:/New Netmatters/scss/_newscards.scss */
 #news-tag #news-tag-latest {
   text-transform: uppercase;
   font-size: 1.25rem;
@@ -1756,14 +1505,12 @@ ul {
 }
 
 @media (max-width: 767px) {
-  /* line 6, F:/New Netmatters/scss/_newscards.scss */
   #news-tag #news-tag-latest {
     margin-left: 15px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 6, F:/New Netmatters/scss/_newscards.scss */
   #news-tag #news-tag-latest {
     flex-basis: 720px;
     margin-left: auto;
@@ -1772,20 +1519,17 @@ ul {
 }
 
 @media (min-width: 992px) {
-  /* line 6, F:/New Netmatters/scss/_newscards.scss */
   #news-tag #news-tag-latest {
     flex-basis: 940px;
   }
 }
 
 @media (min-width: 1260px) {
-  /* line 6, F:/New Netmatters/scss/_newscards.scss */
   #news-tag #news-tag-latest {
     flex-basis: 1170px;
   }
 }
 
-/* line 25, F:/New Netmatters/scss/_newscards.scss */
 #news-tag #news-tag-latest span {
   display: inline-block;
   padding: 40px 0 35px;
@@ -1793,20 +1537,17 @@ ul {
 }
 
 @media (max-width: 767px) {
-  /* line 33, F:/New Netmatters/scss/_newscards.scss */
   #news-cards {
     padding: 50px 15px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 33, F:/New Netmatters/scss/_newscards.scss */
   #news-cards {
     padding: 50px;
   }
 }
 
-/* line 42, F:/New Netmatters/scss/_newscards.scss */
 #news-container {
   display: flex;
   flex-flow: wrap;
@@ -1816,89 +1557,75 @@ ul {
 }
 
 @media (min-width: 768px) {
-  /* line 42, F:/New Netmatters/scss/_newscards.scss */
   #news-container {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 42, F:/New Netmatters/scss/_newscards.scss */
   #news-container {
     max-width: 940px;
   }
 }
 
 @media (min-width: 1260px) {
-  /* line 42, F:/New Netmatters/scss/_newscards.scss */
   #news-container {
     max-width: 1170px;
   }
 }
 
-/* line 59, F:/New Netmatters/scss/_newscards.scss */
 .news-story {
   border: 1px solid #ccc;
   border-radius: 3px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }
 
-/* line 63, F:/New Netmatters/scss/_newscards.scss */
 .news-story .author {
   color: #333645;
   font-weight: 600;
 }
 
 @media (max-width: 767px) {
-  /* line 59, F:/New Netmatters/scss/_newscards.scss */
   .news-story {
     flex-basis: 100%;
     margin-bottom: 30px;
   }
-  /* line 70, F:/New Netmatters/scss/_newscards.scss */
   .news-story:last-child {
     margin-bottom: 0;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 59, F:/New Netmatters/scss/_newscards.scss */
   .news-story {
     flex-basis: 345px;
     margin-bottom: 0;
   }
-  /* line 77, F:/New Netmatters/scss/_newscards.scss */
   .news-story:last-child {
     display: none;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 59, F:/New Netmatters/scss/_newscards.scss */
   .news-story {
     flex-basis: 455px;
   }
 }
 
 @media (min-width: 1260px) {
-  /* line 59, F:/New Netmatters/scss/_newscards.scss */
   .news-story {
     flex-basis: 370px;
   }
-  /* line 86, F:/New Netmatters/scss/_newscards.scss */
   .news-story:last-child {
     display: block;
   }
 }
 
-/* line 92, F:/New Netmatters/scss/_newscards.scss */
 .img-container {
   position: relative;
   text-align: center;
   color: white;
 }
 
-/* line 98, F:/New Netmatters/scss/_newscards.scss */
 .image-caption {
   position: absolute;
   color: #fff;
@@ -1910,27 +1637,22 @@ ul {
   right: 0px;
 }
 
-/* line 100, F:/New Netmatters/scss/_newscards.scss */
 .image-caption.one {
   background: #67809f;
 }
 
-/* line 103, F:/New Netmatters/scss/_newscards.scss */
 .image-caption.two {
   background: #926fb1;
 }
 
-/* line 106, F:/New Netmatters/scss/_newscards.scss */
 .image-caption.three {
   background: #d64541;
 }
 
-/* line 114, F:/New Netmatters/scss/_newscards.scss */
 .image-caption:hover {
   text-decoration: underline;
 }
 
-/* line 121, F:/New Netmatters/scss/_newscards.scss */
 .story-fig {
   background: white;
   margin: 0;
@@ -1938,20 +1660,17 @@ ul {
 }
 
 @media (min-width: 992px) {
-  /* line 121, F:/New Netmatters/scss/_newscards.scss */
   .story-fig {
     height: 262.84px;
   }
 }
 
 @media (min-width: 1260px) {
-  /* line 121, F:/New Netmatters/scss/_newscards.scss */
   .story-fig {
     height: 213.86px;
   }
 }
 
-/* line 133, F:/New Netmatters/scss/_newscards.scss */
 .story-img {
   width: 100%;
   border-bottom: 1px solid #ccc;
@@ -1960,7 +1679,6 @@ ul {
 }
 
 @media (min-width: 992px) {
-  /* line 138, F:/New Netmatters/scss/_newscards.scss */
   .story-img:hover {
     transform-origin: center;
     transform: scale(1.1);
@@ -1968,7 +1686,6 @@ ul {
   }
 }
 
-/* line 147, F:/New Netmatters/scss/_newscards.scss */
 article {
   display: flex;
   flex-direction: column;
@@ -1976,30 +1693,25 @@ article {
   padding: 30px;
 }
 
-/* line 152, F:/New Netmatters/scss/_newscards.scss */
 article h3 {
   font-weight: 600;
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
-/* line 154, F:/New Netmatters/scss/_newscards.scss */
 article h3.bespoke-title {
   color: #67809f;
 }
 
-/* line 157, F:/New Netmatters/scss/_newscards.scss */
 article h3.design-title {
   color: #926fb1;
 }
 
-/* line 160, F:/New Netmatters/scss/_newscards.scss */
 article h3.telecoms-title {
   color: #d64541;
 }
 
 @media (max-width: 767px) {
-  /* line 152, F:/New Netmatters/scss/_newscards.scss */
   article h3 {
     margin: -4px 0 15px;
     height: auto;
@@ -2007,7 +1719,6 @@ article h3.telecoms-title {
 }
 
 @media (min-width: 768px) {
-  /* line 152, F:/New Netmatters/scss/_newscards.scss */
   article h3 {
     margin: -5px 0 15px;
     height: 48px;
@@ -2015,13 +1726,11 @@ article h3.telecoms-title {
 }
 
 @media (min-width: 992px) {
-  /* line 152, F:/New Netmatters/scss/_newscards.scss */
   article h3 {
     margin: -1 0 15px;
   }
 }
 
-/* line 177, F:/New Netmatters/scss/_newscards.scss */
 article p {
   line-height: 1.375rem;
   font-size: .8125rem;
@@ -2029,20 +1738,17 @@ article p {
 }
 
 @inlcude mq('md') {
-  /* line 177, F:/New Netmatters/scss/_newscards.scss */
   article p {
     margin: 0 0 47px;
   }
 }
 
 @media (min-width: 1260px) {
-  /* line 177, F:/New Netmatters/scss/_newscards.scss */
   article p {
     margin: 0 0 25px;
   }
 }
 
-/* line 191, F:/New Netmatters/scss/_newscards.scss */
 .story-ftr {
   display: flex;
   align-items: center;
@@ -2051,7 +1757,6 @@ article p {
   margin-top: 30px;
 }
 
-/* line 197, F:/New Netmatters/scss/_newscards.scss */
 .story-ftr .auth-img {
   display: flex;
   flex: 0 0 47px;
@@ -2059,57 +1764,48 @@ article p {
 }
 
 @media (max-width: 767px) {
-  /* line 197, F:/New Netmatters/scss/_newscards.scss */
   .story-ftr .auth-img {
     margin: -1px 0 0;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 197, F:/New Netmatters/scss/_newscards.scss */
   .story-ftr .auth-img {
     margin: 0;
   }
 }
 
-/* line 210, F:/New Netmatters/scss/_newscards.scss */
 .author {
   display: flex;
   align-items: center;
 }
 
-/* line 213, F:/New Netmatters/scss/_newscards.scss */
 .author ul {
   padding: 0;
 }
 
 @media (max-width: 767px) {
-  /* line 213, F:/New Netmatters/scss/_newscards.scss */
   .author ul {
     margin: 0 0 0 20px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 213, F:/New Netmatters/scss/_newscards.scss */
   .author ul {
     margin: -2px 0 0 20px;
   }
 }
 
-/* line 222, F:/New Netmatters/scss/_newscards.scss */
 .author li {
   font-weight: 400;
   font-size: .875rem;
   line-height: 1.375rem;
 }
 
-/* line 229, F:/New Netmatters/scss/_newscards.scss */
 .auth-img img {
   border-radius: 50%;
 }
 
-/* line 1, F:/New Netmatters/scss/_clients.scss */
 .clients-container {
   background-color: #fff;
   padding: 50px 0;
@@ -2117,14 +1813,12 @@ article p {
 }
 
 @media (max-width: 767px) {
-  /* line 1, F:/New Netmatters/scss/_clients.scss */
   .clients-container {
     display: none;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 1, F:/New Netmatters/scss/_clients.scss */
   .clients-container {
     display: block;
     height: 146px;
@@ -2132,20 +1826,17 @@ article p {
 }
 
 @media (min-width: 992px) {
-  /* line 1, F:/New Netmatters/scss/_clients.scss */
   .clients-container {
     height: 162.83px;
   }
 }
 
 @media (min-width: 1260px) {
-  /* line 1, F:/New Netmatters/scss/_clients.scss */
   .clients-container {
     height: 170px;
   }
 }
 
-/* line 20, F:/New Netmatters/scss/_clients.scss */
 .clients-logos {
   display: flex;
   max-width: 720px;
@@ -2153,19 +1844,16 @@ article p {
   margin: auto;
 }
 
-/* line 25, F:/New Netmatters/scss/_clients.scss */
 .clients-logos div {
   position: relative;
   max-height: 45.11px;
 }
 
-/* line 28, F:/New Netmatters/scss/_clients.scss */
 .clients-logos div img {
   padding: 0 20px;
   max-height: 45.11px;
 }
 
-/* line 31, F:/New Netmatters/scss/_clients.scss */
 .clients-logos div img:last-child {
   position: absolute;
   visibility: hidden;
@@ -2173,49 +1861,40 @@ article p {
   z-index: 1;
 }
 
-/* line 39, F:/New Netmatters/scss/_clients.scss */
 .clients-logos div:hover img:last-child {
   visibility: visible;
 }
 
 @media (min-width: 992px) {
-  /* line 20, F:/New Netmatters/scss/_clients.scss */
   .clients-logos {
     max-width: 940px;
   }
-  /* line 46, F:/New Netmatters/scss/_clients.scss */
   .clients-logos div {
     max-height: 62.83px;
   }
-  /* line 48, F:/New Netmatters/scss/_clients.scss */
   .clients-logos div img {
     max-height: 62.83px;
   }
 }
 
 @media (min-width: 1260px) {
-  /* line 20, F:/New Netmatters/scss/_clients.scss */
   .clients-logos {
     max-width: 1135px;
   }
-  /* line 55, F:/New Netmatters/scss/_clients.scss */
   .clients-logos div {
     max-height: 70px;
   }
-  /* line 57, F:/New Netmatters/scss/_clients.scss */
   .clients-logos div img {
     max-height: 70px;
   }
 }
 
-/* line 1, F:/New Netmatters/scss/_newsletter.scss */
 #newsletter-container {
   background-color: #ddd;
   padding-bottom: 226px;
   max-height: 381px;
 }
 
-/* line 5, F:/New Netmatters/scss/_newsletter.scss */
 #newsletter-container h2 {
   text-transform: none;
   margin: 0px 0px 15px;
@@ -2224,7 +1903,6 @@ article p {
   color: #333645;
 }
 
-/* line 14, F:/New Netmatters/scss/_newsletter.scss */
 label {
   font-weight: 600;
   color: #333645;
@@ -2232,26 +1910,22 @@ label {
   width: 100%;
 }
 
-/* line 21, F:/New Netmatters/scss/_newsletter.scss */
 fieldset {
   border: none;
   padding: 0;
 }
 
-/* line 26, F:/New Netmatters/scss/_newsletter.scss */
 .required {
   color: #d64541;
 }
 
 @media (max-width: 767px) {
-  /* line 30, F:/New Netmatters/scss/_newsletter.scss */
   .newsletter-form {
     padding: 50px 30px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 30, F:/New Netmatters/scss/_newsletter.scss */
   .newsletter-form {
     max-width: 720px;
     padding: 50px 30px;
@@ -2260,7 +1934,6 @@ fieldset {
 }
 
 @media (min-width: 992px) {
-  /* line 30, F:/New Netmatters/scss/_newsletter.scss */
   .newsletter-form {
     max-width: 940px;
     padding: 50px 30px;
@@ -2268,23 +1941,19 @@ fieldset {
 }
 
 @media (min-width: 1260px) {
-  /* line 30, F:/New Netmatters/scss/_newsletter.scss */
   .newsletter-form {
     max-width: 1170px;
   }
 }
 
-/* line 48, F:/New Netmatters/scss/_newsletter.scss */
 .newsletter-fieldset {
   margin: 0 0 20px;
 }
 
-/* line 52, F:/New Netmatters/scss/_newsletter.scss */
 signup-label {
   margin-bottom: 5px;
 }
 
-/* line 56, F:/New Netmatters/scss/_newsletter.scss */
 .newsletter-fields {
   display: flex;
   flex-wrap: wrap;
@@ -2292,14 +1961,12 @@ signup-label {
   width: 100%;
 }
 
-/* line 61, F:/New Netmatters/scss/_newsletter.scss */
 .newsletter-fields .name-field,
 .newsletter-fields .email-field {
   width: 100%;
 }
 
 @media (min-width: 992px) {
-  /* line 61, F:/New Netmatters/scss/_newsletter.scss */
   .newsletter-fields .name-field,
   .newsletter-fields .email-field {
     width: 425px;
@@ -2307,14 +1974,12 @@ signup-label {
 }
 
 @media (min-width: 1260px) {
-  /* line 61, F:/New Netmatters/scss/_newsletter.scss */
   .newsletter-fields .name-field,
   .newsletter-fields .email-field {
     width: 540px;
   }
 }
 
-/* line 73, F:/New Netmatters/scss/_newsletter.scss */
 #name,
 #email {
   width: 100%;
@@ -2329,7 +1994,6 @@ signup-label {
   box-shadow: inset 0 1px 1px rgba(66, 61, 61, 0.08);
 }
 
-/* line 85, F:/New Netmatters/scss/_newsletter.scss */
 #name:focus,
 #email:focus {
   outline: none;
@@ -2337,31 +2001,26 @@ signup-label {
   box-shadow: 0px 0px 8px rgba(91, 192, 222, 0.6);
 }
 
-/* line 92, F:/New Netmatters/scss/_newsletter.scss */
 .marketing-box {
   margin-top: 5px;
   margin-bottom: 11px;
   display: flex;
 }
 
-/* line 98, F:/New Netmatters/scss/_newsletter.scss */
 #marketing-optin {
   display: none;
 }
 
-/* line 102, F:/New Netmatters/scss/_newsletter.scss */
 .marketing-label {
   padding-left: 52px;
   position: relative;
   cursor: pointer;
 }
 
-/* line 106, F:/New Netmatters/scss/_newsletter.scss */
 .marketing-label a {
   display: inline-block;
 }
 
-/* line 111, F:/New Netmatters/scss/_newsletter.scss */
 .marketing-label::before {
   content: "";
   width: 26px;
@@ -2374,13 +2033,11 @@ signup-label {
   top: 0;
 }
 
-/* line 123, F:/New Netmatters/scss/_newsletter.scss */
 .marketing-label p {
   display: inline-block;
   margin: 0px;
 }
 
-/* line 129, F:/New Netmatters/scss/_newsletter.scss */
 .marketing-label #marketing-optin:checked + p::before {
   content: "";
   position: absolute;
@@ -2392,7 +2049,6 @@ signup-label {
   border-radius: 3px;
 }
 
-/* line 139, F:/New Netmatters/scss/_newsletter.scss */
 .marketing-label #marketing-optin:checked + p::after {
   content: "";
   display: block;
@@ -2407,7 +2063,6 @@ signup-label {
   color: #fff;
 }
 
-/* line 1, F:/New Netmatters/scss/_footer.scss */
 #first-ftr {
   display: flex;
   background-color: #333645;
@@ -2416,13 +2071,11 @@ signup-label {
   line-height: 1.375rem;
 }
 
-/* line 7, F:/New Netmatters/scss/_footer.scss */
 #first-ftr > div {
   margin: 0;
   padding: 0;
 }
 
-/* line 11, F:/New Netmatters/scss/_footer.scss */
 #first-ftr h4 {
   text-transform: uppercase;
   height: 17px;
@@ -2431,19 +2084,16 @@ signup-label {
   margin: 0 0 28px;
 }
 
-/* line 18, F:/New Netmatters/scss/_footer.scss */
 #first-ftr a {
   display: inline-block;
 }
 
-/* line 21, F:/New Netmatters/scss/_footer.scss */
 #first-ftr ul {
   padding: 0;
   margin: 0 0 28px;
 }
 
 @media (max-width: 767px) {
-  /* line 1, F:/New Netmatters/scss/_footer.scss */
   #first-ftr {
     flex-direction: column;
     padding: 45px 15px 43px;
@@ -2451,14 +2101,12 @@ signup-label {
 }
 
 @media (min-width: 768px) {
-  /* line 1, F:/New Netmatters/scss/_footer.scss */
   #first-ftr {
     flex-flow: row wrap;
     padding: 45px 0 43px;
     justify-content: center;
     margin: auto;
   }
-  /* line 34, F:/New Netmatters/scss/_footer.scss */
   #first-ftr > div {
     flex-basis: 375px;
     padding: 0 15px;
@@ -2466,7 +2114,6 @@ signup-label {
 }
 
 @media (min-width: 992px) {
-  /* line 40, F:/New Netmatters/scss/_footer.scss */
   #first-ftr > div {
     flex-basis: 485px;
     max-width: 485px;
@@ -2474,7 +2121,6 @@ signup-label {
 }
 
 @media (min-width: 1260px) {
-  /* line 46, F:/New Netmatters/scss/_footer.scss */
   #first-ftr > div {
     flex-basis: 300px;
     max-width: 300px;
@@ -2482,67 +2128,55 @@ signup-label {
   }
 }
 
-/* line 54, F:/New Netmatters/scss/_footer.scss */
 #socials h4 {
   padding-bottom: 23px;
 }
 
-/* line 58, F:/New Netmatters/scss/_footer.scss */
 #socials-links {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-/* line 62, F:/New Netmatters/scss/_footer.scss */
 #socials-links a {
   display: flex;
   justify-content: center;
 }
 
-/* line 65, F:/New Netmatters/scss/_footer.scss */
 #socials-links a .fab {
   font-size: 28px;
 }
 
-/* line 68, F:/New Netmatters/scss/_footer.scss */
 #socials-links a:hover {
   text-decoration: none;
 }
 
-/* line 72, F:/New Netmatters/scss/_footer.scss */
 #socials-links a:nth-child(n+4) {
   margin-bottom: 0;
 }
 
-/* line 77, F:/New Netmatters/scss/_footer.scss */
 .gap {
   flex-basis: 30px;
   max-width: 30px;
 }
 
-/* line 82, F:/New Netmatters/scss/_footer.scss */
 .empty {
   flex: 1 0 40%;
   padding: 12.5px 0;
 }
 
-/* line 88, F:/New Netmatters/scss/_footer.scss */
 a:hover.facebook {
   background-color: #3b599b;
 }
 
-/* line 91, F:/New Netmatters/scss/_footer.scss */
 a:hover.twitter {
   background-color: #00aced;
 }
 
-/* line 94, F:/New Netmatters/scss/_footer.scss */
 a:hover.linkedin {
   background-color: #0077be;
 }
 
-/* line 99, F:/New Netmatters/scss/_footer.scss */
 .facebook,
 .twitter,
 .linkedin {
@@ -2552,27 +2186,23 @@ a:hover.linkedin {
   margin-bottom: 30px;
 }
 
-/* line 108, F:/New Netmatters/scss/_footer.scss */
 .awards {
   padding: 50px 0;
   max-height: 266px;
 }
 
 @media (max-width: 767px) {
-  /* line 108, F:/New Netmatters/scss/_footer.scss */
   .awards {
     display: none;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 108, F:/New Netmatters/scss/_footer.scss */
   .awards {
     display: block;
   }
 }
 
-/* line 119, F:/New Netmatters/scss/_footer.scss */
 .partners,
 .awards-section {
   display: flex;
@@ -2582,7 +2212,6 @@ a:hover.linkedin {
   margin-top: 20px;
 }
 
-/* line 126, F:/New Netmatters/scss/_footer.scss */
 .partners div,
 .awards-section div {
   position: relative;
@@ -2590,12 +2219,10 @@ a:hover.linkedin {
 }
 
 @media (min-width: 768px) {
-  /* line 131, F:/New Netmatters/scss/_footer.scss */
   .partners .google,
   .awards-section .google {
     padding: 0 20px;
   }
-  /* line 134, F:/New Netmatters/scss/_footer.scss */
   .partners .microsoft img,
   .partners .qms img,
   .partners .norfolk-cc img,
@@ -2604,19 +2231,16 @@ a:hover.linkedin {
   .awards-section .norfolk-cc img {
     height: 53.3px;
   }
-  /* line 139, F:/New Netmatters/scss/_footer.scss */
   .partners .future,
   .awards-section .future {
     height: 53.28px;
   }
-  /* line 142, F:/New Netmatters/scss/_footer.scss */
   .partners .future-growth img,
   .partners .skills-of-tomorrow img,
   .awards-section .future-growth img,
   .awards-section .skills-of-tomorrow img {
     height: 66.28px;
   }
-  /* line 146, F:/New Netmatters/scss/_footer.scss */
   .partners .princess img,
   .awards-section .princess img {
     height: 50.28px;
@@ -2624,47 +2248,38 @@ a:hover.linkedin {
 }
 
 @media (min-width: 992px) {
-  /* line 119, F:/New Netmatters/scss/_footer.scss */
   .partners,
   .awards-section {
     max-width: 940px;
   }
-  /* line 152, F:/New Netmatters/scss/_footer.scss */
   .partners .google,
   .awards-section .google {
     padding: 0 32px 0 33px;
   }
-  /* line 155, F:/New Netmatters/scss/_footer.scss */
   .partners .microsoft img,
   .awards-section .microsoft img {
     height: 85.33px;
   }
-  /* line 158, F:/New Netmatters/scss/_footer.scss */
   .partners .future img,
   .awards-section .future img {
     height: 110.09px;
   }
-  /* line 161, F:/New Netmatters/scss/_footer.scss */
   .partners .qms img,
   .awards-section .qms img {
     height: 99.39px;
   }
-  /* line 164, F:/New Netmatters/scss/_footer.scss */
   .partners .norfolk-cc img,
   .awards-section .norfolk-cc img {
     height: 80.08px;
   }
-  /* line 167, F:/New Netmatters/scss/_footer.scss */
   .partners .future-growth img,
   .awards-section .future-growth img {
     height: 90.58px;
   }
-  /* line 170, F:/New Netmatters/scss/_footer.scss */
   .partners .princess img,
   .awards-section .princess img {
     height: 68.72px;
   }
-  /* line 173, F:/New Netmatters/scss/_footer.scss */
   .partners .skills-of-tomorrow img,
   .awards-section .skills-of-tomorrow img {
     height: 90.58px;
@@ -2672,22 +2287,18 @@ a:hover.linkedin {
 }
 
 @media (min-width: 1260px) {
-  /* line 119, F:/New Netmatters/scss/_footer.scss */
   .partners,
   .awards-section {
     max-width: 1098px;
   }
-  /* line 179, F:/New Netmatters/scss/_footer.scss */
   .partners .awards-section,
   .awards-section .awards-section {
     padding: 0 40px;
   }
-  /* line 182, F:/New Netmatters/scss/_footer.scss */
   .partners .google,
   .awards-section .google {
     padding: 0 20px 0 19px;
   }
-  /* line 185, F:/New Netmatters/scss/_footer.scss */
   .partners .microsoft img,
   .partners .future img,
   .partners .qms img,
@@ -2698,7 +2309,6 @@ a:hover.linkedin {
   .awards-section .norfolk-cc img {
     height: 70px;
   }
-  /* line 191, F:/New Netmatters/scss/_footer.scss */
   .partners .future-growth img,
   .partners .skills-of-tomorrow img,
   .awards-section .future-growth img,
@@ -2706,20 +2316,17 @@ a:hover.linkedin {
     height: 58px;
     padding: 0 50px;
   }
-  /* line 196, F:/New Netmatters/scss/_footer.scss */
   .partners .princess img,
   .awards-section .princess img {
     height: 44px;
   }
 }
 
-/* line 202, F:/New Netmatters/scss/_footer.scss */
 .partners {
   margin-top: 0;
   padding: 0;
 }
 
-/* line 209, F:/New Netmatters/scss/_footer.scss */
 .blacktocolor img:last-child {
   position: absolute;
   visibility: hidden;
@@ -2727,9 +2334,6 @@ a:hover.linkedin {
   z-index: 1;
 }
 
-/* line 217, F:/New Netmatters/scss/_footer.scss */
 .blacktocolor:hover img:last-child {
   visibility: visible;
 }
-
-/*# sourceMappingURL=Style.css.map */
