@@ -264,7 +264,7 @@ header{
   }
 
   #navbar{
-  	overflow: hidden;
+  	position: relative;
   	display: none;
   	@include mq('md'){
   		display: flex;
@@ -405,6 +405,13 @@ header{
   	}
   }
 
+.second-nav-background{
+	width: 100vw;
+	position: absolute;
+	top: 99px;
+	left: 0;
+}
+
 .Web-nav .second-nav-background{
 	background-color: $design-color-hover; 
 }
@@ -452,7 +459,6 @@ header{
 
   .second-nav-content{
   	display: none;
-  	position: absolute;
   	left: 0;
   	align-items: center;
   	z-index: 1;
