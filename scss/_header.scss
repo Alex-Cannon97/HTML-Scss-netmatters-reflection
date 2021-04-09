@@ -49,11 +49,11 @@ header{
   		max-width: 100%;
   	}
   	@include mq('xs'){
-  		flex: 1 1 50%;
+  		flex: 1 1 100%;
   		max-width: 402px;
   	}
   	@include mq('sm'){
-  		flex: 1 1 50%;
+  		flex: 1 1 100%;
   		max-width: 345px;
   		margin-bottom: auto;
   	}

@@ -220,14 +220,14 @@ header {
 
 @media (max-width: 767px) {
   .header-logo {
-    flex: 1 1 50%;
+    flex: 1 1 100%;
     max-width: 402px;
   }
 }
 
 @media (min-width: 768px) {
   .header-logo {
-    flex: 1 1 50%;
+    flex: 1 1 100%;
     max-width: 345px;
     margin-bottom: auto;
   }
