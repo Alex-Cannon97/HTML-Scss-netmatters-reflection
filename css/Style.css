@@ -1892,20 +1892,7 @@ article p {
 
 #newsletter-container {
   background-color: #ddd;
-  padding-bottom: 226px;
-  max-height: 502px;
-}
-
-@media (min-width: 992px) {
-  #newsletter-container {
-    height: 381px;
-  }
-}
-
-@media (min-width: 1260px) {
-  #newsletter-container {
-    height: 381px;
-  }
+  height: auto;
 }
 
 #newsletter-container h2 {
