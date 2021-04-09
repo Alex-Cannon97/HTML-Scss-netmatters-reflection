@@ -78,6 +78,8 @@
 	@include mq('xs'){
         flex: 1 1 100%;
         max-width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
         &:last-child{
             margin-bottom: 0;
         }
