@@ -119,13 +119,13 @@ signup-label{
 	top: 0;
 }
 
-.marketing-label p {
+.marketing-label span {
 	display: inline-block;
 	margin: 0px;
 }
 
 .marketing-label #marketing-optin:checked{
-	+p::before{
+	+span::before{
 		content:"";
 		position: absolute;
 		width: 32px;
@@ -135,7 +135,7 @@ signup-label{
 		top: 0;
 		border-radius: 3px;
 	}
-	+p::after{
+	+span::after{
 		content:"";
 		display: block;
 		position: absolute;

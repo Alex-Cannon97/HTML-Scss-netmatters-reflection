@@ -3,6 +3,7 @@
 .hero-banner{
 	background-image: linear-gradient(to right, rgb(0,0,0), rgba(0,0,0,.0)), url('../images/hero-image.PNG'), url('../images/hero-image-ie.jpg');
 	background-size: cover;
+	background-position: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
