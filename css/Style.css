@@ -1544,7 +1544,8 @@ ul {
 
 @media (min-width: 768px) {
   #news-cards {
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
@@ -1892,7 +1893,19 @@ article p {
 #newsletter-container {
   background-color: #ddd;
   padding-bottom: 226px;
-  max-height: 381px;
+  max-height: 502px;
+}
+
+@media (min-width: 992px) {
+  #newsletter-container {
+    height: 381px;
+  }
+}
+
+@media (min-width: 1260px) {
+  #newsletter-container {
+    height: 381px;
+  }
 }
 
 #newsletter-container h2 {

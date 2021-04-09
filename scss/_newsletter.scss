@@ -1,7 +1,13 @@
 #newsletter-container{
 	background-color: $base-light-grey;
 	padding-bottom: 226px;
-	max-height: 381px;
+	max-height: 502px;
+	@include mq('md'){
+		height: 381px;
+	}
+	@include mq('lg'){
+		height: 381px;
+	}
 	h2{
 		text-transform: none;
 		margin: 0px 0px 15px;
