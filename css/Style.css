@@ -533,6 +533,7 @@ header {
   color: white;
   background-color: transparent;
   font-family: poppins, sans-serif;
+  cursor: pointer;
 }
 
 .subnav .second-nav-btn span {
@@ -1636,6 +1637,7 @@ ul {
   color: #fff;
   padding: 0px 10px;
   font-size: .75rem;
+  font-weight: 600;
   line-height: 1.438rem;
   text-transform: uppercase;
   top: 8px;
