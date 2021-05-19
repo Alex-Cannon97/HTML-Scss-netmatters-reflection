@@ -4,6 +4,28 @@
 	box-sizing: Border-box;
 }
 
+.scroll-div{
+	height: 100vh;
+	overflow: auto;
+}
+
+.show-scroll-div{
+	position: relative;
+	right: 275px;
+	@include mq('md'){
+		right: 350px;
+	}
+}
+
+.grey-overlay{
+	height: 100vh;
+	width: 100vw;
+	z-index: 8;
+	background: rgba(0,0,0,.4);
+	opacity: 1;
+	position: absolute;
+}
+
 body{
 	font-family: $fontstyle;
 	font-size: 1rem;

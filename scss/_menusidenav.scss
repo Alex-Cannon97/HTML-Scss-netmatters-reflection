@@ -1,0 +1,158 @@
+.menu-container{
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 9;
+	height: 100%;
+	background: $base-dark;
+	width: 275px;
+	overflow: auto;
+	visibility: hidden;
+	@include mq('md'){
+	width: 350px;
+	}
+}
+
+.show-menu{
+	visibility: visible;
+}
+
+.menu-side{
+	padding: 0px;
+}
+
+.menu-side ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu-side ul>li{
+	border-top: 1px solid hsla(0,0%,100%,.1);
+	border-bottom: 1px solid rgba(0,0,0,.25);
+}
+
+.menu-side ul>li>a{
+	display: block;
+	color: $base-white;
+	padding: 20px;
+	text-transform: uppercase;
+	font-size: 1rem;
+	text-decoration: none;
+	line-height: 1;
+	position: relative;
+}
+
+.menu-side ul>li>ul>li>a{
+	border-top: 1px solid hsla(0,0%,100%,.05);
+	display: block;
+	color: $base-white;
+	background-color: rgba(0,0,0,.25);
+	padding: 15px 20px;
+	text-transform: uppercase;
+	font-size: .875rem;
+	text-decoration: none;
+	line-height: 1.42857143;
+}
+
+.menu-side ul>li>ul>li{
+	border-top: 1px solid rgba(0,0,0,.45);
+}
+
+.menu-side ul>li>ul>li>a:before{
+	content: "\BB";
+	padding-right: 15px;
+}
+
+.pad-div{
+	padding: 21px;
+}
+
+.pad-div ul{
+	margin: -20px 0 0;
+}
+
+
+.pad-div ul>li>a{
+	font-size: 1.125rem;
+	padding: 19px 0 18px;
+	border-radius: 3px;
+	outline: 1px solid rgba(0,0,0,.25);
+	border: 1px solid hsla(0,0%,100%,.1);
+	text-align: center;
+}
+
+.pad-div ul>li>ul{
+	margin-top: 20px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.pad-div ul>li.web>a span{
+	padding: 10px;
+	font-size: 1.438;
+	color: $design-color;
+	display: block;
+}
+
+.pad-div ul>li.it>a span{
+	padding: 10px;
+	font-size: 1.438;
+	color: $IT-color;
+	display: block;
+}
+
+.pad-div ul>li.telecom>a span{
+	padding: 10px;
+	font-size: 1.438;
+	color: $telecoms-color;
+	display: block;
+}
+
+.pad-div ul>li.bespoke>a span{
+	padding: 10px;
+	font-size: 1.438;
+	color: $bespoke-color;
+	display: block;
+}
+
+.pad-div ul>li.digital>a span{
+	padding: 10px;
+	font-size: 1.438;
+	color: $digital-color;
+	display: block;
+}
+
+.pad-div ul>li.cyber>a span{
+	padding: 10px;
+	font-size: 1.438;
+	color: $cyber-color;
+	display: block;
+}
+
+.pad-div ul>li>a small{
+	font-size: .625rem;
+	padding-bottom: 7px;
+	display: block;
+}
+
+.pad-div ul>li>>ul>li>a{
+	display: block;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.pad-div ul>li{
+	padding: 20px 0 0;
+}
+
+.pad-div ul>li>ul>li{
+	padding: 0;
+}
+
+.pad-div ul>li>ul>li>a:before{
+	content: "";
+	padding-right: 15px;
+}

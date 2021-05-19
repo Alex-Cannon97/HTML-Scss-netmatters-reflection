@@ -431,7 +431,7 @@ header {
   }
 }
 
-.burger-icon {
+.burger-icon, .other-menu-btn {
   display: flex;
   max-width: 63.03px;
   justify-content: center;
@@ -446,14 +446,14 @@ header {
   font-size: .75rem;
 }
 
-.burger-icon .menu-title {
+.burger-icon .menu-title, .other-menu-btn .menu-title {
   font-family: poppins,sans-serif;
   margin: 0 -1px 0 0;
   text-align: center;
   font-size: 12px;
 }
 
-.burger-icon #burger-lines {
+.burger-icon #burger-lines, .other-menu-btn #burger-lines {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -462,24 +462,47 @@ header {
   margin: 6px auto 8px;
 }
 
-.burger-icon #burger-lines .burger-line {
+.burger-icon #burger-lines .burger-line, .other-menu-btn #burger-lines .burger-line {
   width: 33px;
   height: 3px;
   background-color: #fff;
   margin-bottom: 5px;
 }
 
-.burger-icon #burger-lines .burger-line:last-child {
+.burger-icon #burger-lines .burger-line:last-child, .other-menu-btn #burger-lines .burger-line:last-child {
   margin-bottom: -12px;
 }
 
-.burger-icon:hover {
+.burger-icon:hover, .other-menu-btn:hover {
   cursor: pointer;
   background-color: #22242e;
 }
 
-.burger-icon:hover a {
+.burger-icon:hover a, .other-menu-btn:hover a {
   text-decoration: none;
+}
+
+.other-menu-btn {
+  display: none !important;
+}
+
+.other-menu-btn .menu-title {
+  line-height: 1 !important;
+}
+
+.other-menu-btn .fas {
+  font-size: 24px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-btn-show {
+  display: block !important;
+}
+
+.hide-main-btn {
+  display: none !important;
 }
 
 @media (min-width: 768px) {
@@ -740,6 +763,31 @@ header {
 
 * {
   box-sizing: Border-box;
+}
+
+.scroll-div {
+  height: 100vh;
+  overflow: auto;
+}
+
+.show-scroll-div {
+  position: relative;
+  right: 275px;
+}
+
+@media (min-width: 992px) {
+  .show-scroll-div {
+    right: 350px;
+  }
+}
+
+.grey-overlay {
+  height: 100vh;
+  width: 100vw;
+  z-index: 8;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+  position: absolute;
 }
 
 body {
@@ -2342,4 +2390,165 @@ a:hover.linkedin {
 
 .blacktocolor:hover img:last-child {
   visibility: visible;
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9;
+  height: 100%;
+  background: #333645;
+  width: 275px;
+  overflow: auto;
+  visibility: hidden;
+}
+
+@media (min-width: 992px) {
+  .menu-container {
+    width: 350px;
+  }
+}
+
+.show-menu {
+  visibility: visible;
+}
+
+.menu-side {
+  padding: 0px;
+}
+
+.menu-side ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-side ul > li {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.menu-side ul > li > a {
+  display: block;
+  color: #fff;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-decoration: none;
+  line-height: 1;
+  position: relative;
+}
+
+.menu-side ul > li > ul > li > a {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  display: block;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-size: .875rem;
+  text-decoration: none;
+  line-height: 1.42857143;
+}
+
+.menu-side ul > li > ul > li {
+  border-top: 1px solid rgba(0, 0, 0, 0.45);
+}
+
+.menu-side ul > li > ul > li > a:before {
+  content: "\BB";
+  padding-right: 15px;
+}
+
+.pad-div {
+  padding: 21px;
+}
+
+.pad-div ul {
+  margin: -20px 0 0;
+}
+
+.pad-div ul > li > a {
+  font-size: 1.125rem;
+  padding: 19px 0 18px;
+  border-radius: 3px;
+  outline: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.pad-div ul > li > ul {
+  margin-top: 20px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.pad-div ul > li.web > a span {
+  padding: 10px;
+  font-size: 1.438;
+  color: #926fb1;
+  display: block;
+}
+
+.pad-div ul > li.it > a span {
+  padding: 10px;
+  font-size: 1.438;
+  color: #4183d7;
+  display: block;
+}
+
+.pad-div ul > li.telecom > a span {
+  padding: 10px;
+  font-size: 1.438;
+  color: #d64541;
+  display: block;
+}
+
+.pad-div ul > li.bespoke > a span {
+  padding: 10px;
+  font-size: 1.438;
+  color: #67809f;
+  display: block;
+}
+
+.pad-div ul > li.digital > a span {
+  padding: 10px;
+  font-size: 1.438;
+  color: #2ecc71;
+  display: block;
+}
+
+.pad-div ul > li.cyber > a span {
+  padding: 10px;
+  font-size: 1.438;
+  color: #f62459;
+  display: block;
+}
+
+.pad-div ul > li > a small {
+  font-size: .625rem;
+  padding-bottom: 7px;
+  display: block;
+}
+
+.pad-div ul > li > > ul > li > a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.pad-div ul > li {
+  padding: 20px 0 0;
+}
+
+.pad-div ul > li > ul > li {
+  padding: 0;
+}
+
+.pad-div ul > li > ul > li > a:before {
+  content: "";
+  padding-right: 15px;
 }

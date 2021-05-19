@@ -212,7 +212,7 @@ header{
   	}
   }
 
-  .burger-icon{
+  .burger-icon, .other-menu-btn{
   	display: flex;
   	max-width: 63.03px;
   	justify-content: center;
@@ -255,6 +255,27 @@ header{
   			text-decoration: none;
   		}
   	}
+  }
+
+  .other-menu-btn{
+   display: none !important;
+   .menu-title{
+      line-height: 1 !important;
+    }
+    .fas{
+      font-size: 24px;
+      color: $base-white;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .menu-btn-show{
+    display: block !important;
+  }
+
+  .hide-main-btn{
+    display: none !important;
   }
 
   .contact-button{
