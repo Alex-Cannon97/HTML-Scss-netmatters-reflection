@@ -2424,12 +2424,12 @@ a:hover.linkedin {
   margin: 0;
 }
 
-.menu-side ul > li {
+.lower-sidenav li {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
-.menu-side ul > li > a {
+.heading {
   display: block;
   color: #fff;
   padding: 20px;
@@ -2440,7 +2440,7 @@ a:hover.linkedin {
   position: relative;
 }
 
-.menu-side ul > li > ul > li > a {
+.topics li > a {
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   display: block;
   color: #fff;
@@ -2456,99 +2456,101 @@ a:hover.linkedin {
   border-top: 1px solid rgba(0, 0, 0, 0.45);
 }
 
-.menu-side ul > li > ul > li > a:before {
+.menu-side .lower-sidenav li > ul > li > a:before {
   content: "\BB";
   padding-right: 15px;
 }
 
 .pad-div {
-  padding: 21px;
+  padding-left: 21px;
+  padding-right: 21px;
 }
 
-.pad-div ul {
-  margin: -20px 0 0;
-}
-
-.pad-div ul > li > a {
+.big-button a {
+  display: block;
+  color: #fff;
   font-size: 1.125rem;
   padding: 19px 0 18px;
   border-radius: 3px;
-  outline: 1px solid rgba(0, 0, 0, 0.25);
-  border: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-.pad-div ul > li > ul {
+.big-button ul {
   margin-top: 20px;
   border-radius: 3px;
   overflow: hidden;
 }
 
-.pad-div ul > li.web > a span {
+.web > a span {
   padding: 10px;
   font-size: 1.438;
   color: #926fb1;
   display: block;
 }
 
-.pad-div ul > li.it > a span {
+.it > a span {
   padding: 10px;
   font-size: 1.438;
   color: #4183d7;
   display: block;
 }
 
-.pad-div ul > li.telecom > a span {
+.telecom > a span {
   padding: 10px;
   font-size: 1.438;
   color: #d64541;
   display: block;
 }
 
-.pad-div ul > li.bespoke > a span {
+.bespoke > a span {
   padding: 10px;
   font-size: 1.438;
   color: #67809f;
   display: block;
 }
 
-.pad-div ul > li.digital > a span {
+.digital > a span {
   padding: 10px;
   font-size: 1.438;
   color: #2ecc71;
   display: block;
 }
 
-.pad-div ul > li.cyber > a span {
+.cyber > a span {
   padding: 10px;
   font-size: 1.438;
   color: #f62459;
   display: block;
 }
 
-.pad-div ul > li > a small {
+.big-button a small {
   font-size: .625rem;
-  padding-bottom: 7px;
   display: block;
 }
 
-.pad-div ul > li > > ul > li > a {
-  display: block;
+.display li > a {
   color: white;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
 }
 
-.pad-div ul > li {
+.display li:first-child {
+  border-top: none;
+}
+
+.top-break li {
   padding: 20px 0 0;
 }
 
-.pad-div ul > li > ul > li {
-  padding: 0;
+.display li {
+  padding: 0 !important;
 }
 
-.pad-div ul > li > ul > li > a:before {
-  content: "";
-  padding-right: 15px;
+.big-button > a {
+  outline: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
 }

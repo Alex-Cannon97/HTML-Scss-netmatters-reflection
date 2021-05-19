@@ -27,12 +27,12 @@
 	margin: 0;
 }
 
-.menu-side ul>li{
+.lower-sidenav li{
 	border-top: 1px solid hsla(0,0%,100%,.1);
 	border-bottom: 1px solid rgba(0,0,0,.25);
 }
 
-.menu-side ul>li>a{
+.heading{
 	display: block;
 	color: $base-white;
 	padding: 20px;
@@ -43,7 +43,7 @@
 	position: relative;
 }
 
-.menu-side ul>li>ul>li>a{
+.topics li>a{
 	border-top: 1px solid hsla(0,0%,100%,.05);
 	display: block;
 	color: $base-white;
@@ -59,100 +59,101 @@
 	border-top: 1px solid rgba(0,0,0,.45);
 }
 
-.menu-side ul>li>ul>li>a:before{
+.menu-side .lower-sidenav li>ul>li>a:before{
 	content: "\BB";
 	padding-right: 15px;
 }
 
 .pad-div{
-	padding: 21px;
+	padding-left: 21px;
+	padding-right: 21px;
 }
 
-.pad-div ul{
-	margin: -20px 0 0;
-}
-
-
-.pad-div ul>li>a{
+.big-button a{
+	display: block;
+	color: $base-white;
 	font-size: 1.125rem;
 	padding: 19px 0 18px;
 	border-radius: 3px;
-	outline: 1px solid rgba(0,0,0,.25);
-	border: 1px solid hsla(0,0%,100%,.1);
 	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
-.pad-div ul>li>ul{
+.big-button ul{
 	margin-top: 20px;
 	border-radius: 3px;
 	overflow: hidden;
 }
 
-.pad-div ul>li.web>a span{
+.web>a span{
 	padding: 10px;
 	font-size: 1.438;
 	color: $design-color;
 	display: block;
 }
 
-.pad-div ul>li.it>a span{
+.it>a span{
 	padding: 10px;
 	font-size: 1.438;
 	color: $IT-color;
 	display: block;
 }
 
-.pad-div ul>li.telecom>a span{
+.telecom>a span{
 	padding: 10px;
 	font-size: 1.438;
 	color: $telecoms-color;
 	display: block;
 }
 
-.pad-div ul>li.bespoke>a span{
+.bespoke>a span{
 	padding: 10px;
 	font-size: 1.438;
 	color: $bespoke-color;
 	display: block;
 }
 
-.pad-div ul>li.digital>a span{
+.digital>a span{
 	padding: 10px;
 	font-size: 1.438;
 	color: $digital-color;
 	display: block;
 }
 
-.pad-div ul>li.cyber>a span{
+.cyber>a span{
 	padding: 10px;
 	font-size: 1.438;
 	color: $cyber-color;
 	display: block;
 }
 
-.pad-div ul>li>a small{
+.big-button a small{
 	font-size: .625rem;
-	padding-bottom: 7px;
 	display: block;
 }
 
-.pad-div ul>li>>ul>li>a{
-	display: block;
+.display li>a{
 	color: white;
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
 }
 
-.pad-div ul>li{
+.display li:first-child{
+	border-top: none;
+}
+
+.top-break li{
 	padding: 20px 0 0;
 }
 
-.pad-div ul>li>ul>li{
-	padding: 0;
+.display li{
+	padding: 0!important;
 }
 
-.pad-div ul>li>ul>li>a:before{
-	content: "";
-	padding-right: 15px;
+.big-button>a{
+	outline: 1px solid rgba(0,0,0,.25);
+	border: 1px solid hsla(0,0%,100%,.1);
+	border-radius: 3px;
 }
