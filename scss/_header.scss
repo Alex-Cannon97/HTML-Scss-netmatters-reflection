@@ -527,3 +527,110 @@ header{
   		display: flex;
   	}
   
+  #cloned-header{
+    position: fixed;
+    background-color: $base-white;
+    top: 0;
+    right: 17px;
+    left: 0;
+  }
+
+  .hide-header{
+    display: none;
+  }
+
+  .move-right{
+    right: 292px !important;
+    left: -292px !important;
+    @include mq('md'){
+     right: 367px !important;
+     left:  -367px !important;
+    }
+  }
+
+  .grey-backing{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.4);
+    opacity: 1;
+    z-index: 5;
+    position: absolute;
+  }
+
+  .cookie-container{
+    height: auto;
+    width: auto;
+    max-height: 785px;
+    max-width: 620px;
+    background-color: $base-white;
+    border-radius: 5px;
+    z-index: 8;
+  }
+
+  .cookie-container h3{
+    font-size: 1.625rem;
+    font-family: $fontstyle;
+    color: black;
+    margin-left: 20px;
+    line-height: 1.4;
+    font-weight: 100;
+  }
+
+  .cookie-container p{
+    font-size: 1rem;
+    margin-bottom: 25px;
+    color: $base-grey;
+    font-family: $fontstyle;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .cookie-container a{
+    min-width: 264px;
+    height: 47px;
+    font-size: 1.063rem;
+    font-family: $fontstyle;
+    color: $base-white;
+    background-color: $base-grey;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-right: 15px;
+    flex-grow: 1;
+  }
+
+  .cookie-button{
+    width: auto;
+    min-width: 264px;
+    height: 47px !important;
+    max-height: 47px;
+    font-size: 1.063rem;
+    font-family: $fontstyle;
+    color: $base-white;
+    background-color: $design-color;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+    flex-grow: 1;
+  }
+
+  .lines{
+    border-top: 1px solid $base-light-grey;
+    border-bottom: 1px solid $base-light-grey;
+  }
+
+  .cookie-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+ 
+  .hide-big-container{
+    display: none;
+  }

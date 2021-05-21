@@ -67,6 +67,10 @@
 .pad-div{
 	padding-left: 21px;
 	padding-right: 21px;
+	display: block;
+	@include mq('md'){
+		display: none;
+	}
 }
 
 .big-button a{
