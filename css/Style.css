@@ -682,6 +682,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  z-index: 2;
 }
 
 .Web-nav .second-nav-background {
@@ -945,10 +946,9 @@ ul {
 }
 
 .hero-banner {
-  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url("../images/hero-image.PNG"), url("../images/hero-image-ie.jpg");
   background-size: cover;
   background-position: center;
-  display: flex;
+  display: flex !important;
   justify-content: center;
   align-items: center;
   height: calc(100vh - 209px);
@@ -980,6 +980,30 @@ ul {
     height: calc(100vh - 209px);
     min-height: 491px;
   }
+}
+
+.hero-banner.webslide {
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url("../images/hero-image.PNG"), url("../images/hero-image-ie.jpg");
+}
+
+.hero-banner.ITslide {
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url("../images/hero-slide2.jpg");
+}
+
+.hero-banner.telecomsslide {
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url("../images/hero-slide3.jpg");
+}
+
+.hero-banner.bespokeslide {
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url("../images/hero-slide4.jpg");
+}
+
+.hero-banner.digitalslide {
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url("../images/hero-slide5.jpg");
+}
+
+.hero-banner.cyberslide {
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url("../images/hero-slide6.jpg");
 }
 
 .hero-content {
@@ -1031,6 +1055,25 @@ ul {
     text-align: left;
     margin-left: 0;
   }
+}
+
+.slick-dots {
+  bottom: 62px;
+}
+
+.slick-dots li button::before {
+  font-size: 12px;
+  opacity: 0.45;
+  color: #fff;
+}
+
+.slick-dots li.slick-active button::before {
+  color: #fff;
+  opacity: 1;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 19px;
+  height: 19px;
 }
 
 @media (max-width: 767px) {
@@ -1529,7 +1572,6 @@ ul {
 }
 
 .btn-hero {
-  background-color: #926fb1;
   color: #fff;
   padding: 5px 20px;
 }
@@ -1539,8 +1581,52 @@ ul {
   padding-right: 1px;
 }
 
-.btn-hero:hover {
+.herobtn-web {
+  background-color: #926fb1;
+}
+
+.herobtn-web:hover {
   background-color: #7e57a0;
+}
+
+.herobtn-IT {
+  background-color: #4183d7;
+}
+
+.herobtn-IT:hover {
+  background-color: #2a6ec6;
+}
+
+.herobtn-telecoms {
+  background-color: #d64541;
+}
+
+.herobtn-telecoms:hover {
+  background-color: #bc2c28;
+}
+
+.herobtn-bespoke {
+  background-color: #67809f;
+}
+
+.herobtn-bespoke:hover {
+  background-color: #566c88;
+}
+
+.herobtn-digital {
+  background-color: #2ecc71;
+}
+
+.herobtn-digital:hover {
+  background-color: #25a25a;
+}
+
+.herobtn-cyber {
+  background-color: #f62459;
+}
+
+.herobtn-cyber:hover {
+  background-color: #de093f;
 }
 
 .btn-brand {

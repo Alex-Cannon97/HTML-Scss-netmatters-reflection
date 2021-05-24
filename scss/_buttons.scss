@@ -95,18 +95,59 @@
 }
 
 .btn-hero{
-	
-	background-color: $design-color;
 	color: $base-white;
 	padding: 5px 20px;
 	.fas{
 		margin: 0 -4px 0 12px;
 		padding-right: 1px;
 	}
+	
+}
+
+.herobtn-web{
+	background-color: $design-color;
 	&:hover{
-	background-color: $design-color-hover;
+		background-color: $design-color-hover;
 	}
 }
+
+.herobtn-IT{
+	background-color: $IT-color;
+	&:hover{
+		background-color: $IT-color-hover;
+	}
+}
+
+.herobtn-telecoms{
+	background-color: $telecoms-color;
+	&:hover{
+		background-color: $telecoms-color-hover
+	}
+}
+
+.herobtn-bespoke{
+	background-color: $bespoke-color;
+	&:hover{
+		background-color: $bespoke-color-hover;
+	}
+}
+
+.herobtn-digital{
+	background-color: $digital-color;
+	&:hover{
+		background-color: $digital-color-hover;
+	}
+}
+
+.herobtn-cyber{
+	background-color: $cyber-color;
+	&:hover{
+		background-color: $cyber-color-hover;
+	}
+}
+
+
+
 
 .btn-brand{
 	background-color: $base-white;

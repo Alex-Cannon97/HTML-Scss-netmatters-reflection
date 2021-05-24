@@ -1,3 +1,5 @@
+console.log(document.cookie)
+
 const button1 = document.getElementsByClassName('burger-icon')[0];
 const button2 = document.getElementsByClassName('other-menu-btn')[0];
 const menu = document.getElementsByClassName('menu-container')[0];
@@ -12,6 +14,7 @@ topofpage = true;
 const clonebutton1 = document.getElementsByClassName('burger-icon')[1];
 const cookieContainer = document.getElementsByClassName('big-container')[0];
 const cookieButton = document.getElementsByClassName('cookie-button')[0];
+const body = document.querySelector('body')
 
 button1.onclick = function(){
 	menu.classList.add('show-menu')
@@ -56,7 +59,7 @@ clonebutton1.onclick = function(){
 
 
 cookieButton.onclick = function(){
-	document.cookie = "Netmatters=visited; expires=" + new Date(9999, 0, 1).toUTCString()
+	document.cookie = "Netmatters=visited;SameSite=None;Secure; expires=" + new Date(9999, 0, 1).toUTCString()
 	if(document.cookie){
 		cookieContainer.classList.add('hide-big-container')
 	}
@@ -76,4 +79,14 @@ const checkCookieStored = function(){
 	}
 }
 
-window.onload = checkCookieStored
+ body.onload = checkCookieStored;
+
+
+$(document).ready(function(){
+  $('.carousel').slick({
+  	autoplay: true,
+  	autoplaySpeed: 4000,
+  	arrows: false,
+  	dots: true,
+  });
+});
