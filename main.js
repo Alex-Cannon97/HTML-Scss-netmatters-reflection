@@ -1,4 +1,16 @@
-console.log(document.cookie)
+
+const body = document.querySelector('body')
+const checkCookieStored = function(){
+	let checkCookie = document.cookie.indexOf("Netmatters=visited");
+	if(checkCookie !== -1){
+		cookieContainer.classList.add('hide-big-container')
+	}
+	else{
+		cookieContainer.classList.remove('hide-big-container')
+	}
+}
+
+ window.onload = checkCookieStored;
 
 const button1 = document.getElementsByClassName('burger-icon')[0];
 const button2 = document.getElementsByClassName('other-menu-btn')[0];
@@ -14,7 +26,7 @@ topofpage = true;
 const clonebutton1 = document.getElementsByClassName('burger-icon')[1];
 const cookieContainer = document.getElementsByClassName('big-container')[0];
 const cookieButton = document.getElementsByClassName('cookie-button')[0];
-const body = document.querySelector('body')
+
 
 button1.onclick = function(){
 	menu.classList.add('show-menu')
@@ -32,7 +44,6 @@ overlay.onclick = function(){
 	button1.classList.remove('hide-main-btn')
 	cloneHeader.classList.remove('move-right')
 };
-
 
 scroll.onscroll = function(){
 	if(prevScroll < scroll.scrollTop) {
@@ -59,7 +70,7 @@ clonebutton1.onclick = function(){
 
 
 cookieButton.onclick = function(){
-	document.cookie = "Netmatters=visited;SameSite=None;Secure; expires=" + new Date(9999, 0, 1).toUTCString()
+	document.cookie = "Netmatters=visited;SameSite=Lax; expires=" + new Date(9999, 0, 1).toUTCString()
 	if(document.cookie){
 		cookieContainer.classList.add('hide-big-container')
 	}
@@ -69,7 +80,7 @@ cookieButton.onclick = function(){
 }
 
 
-const checkCookieStored = function(){
+/*const checkCookieStored = function(){
 	let checkCookie = document.cookie.indexOf("Netmatters=visited");
 	if(checkCookie !== -1){
 		cookieContainer.classList.add('hide-big-container')
@@ -79,7 +90,7 @@ const checkCookieStored = function(){
 	}
 }
 
- body.onload = checkCookieStored;
+ body.onload = checkCookieStored;*/
 
 
 $(document).ready(function(){
