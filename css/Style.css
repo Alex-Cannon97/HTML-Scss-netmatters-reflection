@@ -868,8 +868,12 @@ header {
   justify-content: space-between;
 }
 
-.hide-big-container {
+.big-container {
   display: none;
+}
+
+.show-big-container {
+  display: block;
 }
 
 * {

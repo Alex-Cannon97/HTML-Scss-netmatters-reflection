@@ -2,10 +2,10 @@
 
 	let checkCookie = function(){
 		if(localStorage.getItem('Netmatters')){
-		cookieContainer.classList.add('hide-big-container')
+		cookieContainer.classList.remove('show-big-container')
 	}
 	else{
-		cookieContainer.classList.remove('hide-big-container')
+		cookieContainer.classList.add('show-big-container')
 	}
  }
  window.onload = checkCookie;
@@ -73,7 +73,7 @@ clonebutton1.onclick = function(){
 cookieButton.onclick = function(){
  	localStorage.setItem('Netmatters', 'visited')
 	if(localStorage.getItem('Netmatters')){
-		cookieContainer.classList.add('hide-big-container')
+		cookieContainer.classList.remove('show-big-container')
 	}
 	else{
 		alert("cookie can't be set!");

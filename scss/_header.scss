@@ -631,7 +631,10 @@ header{
     justify-content: space-between;
   }
 
- 
-  .hide-big-container{
-    display: none;
+ .big-container{
+  display: none;
+ }
+
+  .show-big-container{
+    display: block;
   }
