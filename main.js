@@ -1,16 +1,14 @@
 
-const body = document.querySelector('body')
-const checkCookieStored = function(){
-	let checkCookie = document.cookie.indexOf("Netmatters=visited");
-	if(checkCookie !== -1){
+
+	let checkCookie = function(){
+		if(localStorage.getItem('Netmatters')){
 		cookieContainer.classList.add('hide-big-container')
 	}
 	else{
 		cookieContainer.classList.remove('hide-big-container')
 	}
-}
-
- window.onload = checkCookieStored;
+ }
+ window.onload = checkCookie;
 
 const button1 = document.getElementsByClassName('burger-icon')[0];
 const button2 = document.getElementsByClassName('other-menu-btn')[0];
@@ -21,9 +19,11 @@ const orginalHeader = document.querySelector("#main-header");
 const cloneHeader = orginalHeader.cloneNode(true);
 cloneHeader.id = "cloned-header";
 scroll.append(cloneHeader)
+cloneHeader.classList.add('hide-header')
 let prevScroll = scroll.scrollTop;
 topofpage = true;
 const clonebutton1 = document.getElementsByClassName('burger-icon')[1];
+const clonebutton2 = document.getElementsByClassName('other-menu-btn')[1];
 const cookieContainer = document.getElementsByClassName('big-container')[0];
 const cookieButton = document.getElementsByClassName('cookie-button')[0];
 
@@ -43,6 +43,7 @@ overlay.onclick = function(){
 	button2.classList.remove('menu-btn-show')
 	button1.classList.remove('hide-main-btn')
 	cloneHeader.classList.remove('move-right')
+	clonebutton2.classList.remove('menu-btn-show')
 };
 
 scroll.onscroll = function(){
@@ -63,34 +64,21 @@ clonebutton1.onclick = function(){
 	scroll.classList.add('show-scroll-div')
 	overlay.classList.add('grey-overlay')
 	button1.classList.add('hide-main-btn')
-	button2.classList.add('menu-btn-show')
+	clonebutton2.classList.add('menu-btn-show')
 	cloneHeader.classList.add('move-right')
 };
 
 
 
 cookieButton.onclick = function(){
-	document.cookie = "Netmatters=visited;SameSite=Lax; expires=" + new Date(9999, 0, 1).toUTCString()
-	if(document.cookie){
+ 	localStorage.setItem('Netmatters', 'visited')
+	if(localStorage.getItem('Netmatters')){
 		cookieContainer.classList.add('hide-big-container')
 	}
 	else{
 		alert("cookie can't be set!");
 	}
 }
-
-
-/*const checkCookieStored = function(){
-	let checkCookie = document.cookie.indexOf("Netmatters=visited");
-	if(checkCookie !== -1){
-		cookieContainer.classList.add('hide-big-container')
-	}
-	else{
-		cookieContainer.classList.remove('hide-big-container')
-	}
-}
-
- body.onload = checkCookieStored;*/
 
 
 $(document).ready(function(){
