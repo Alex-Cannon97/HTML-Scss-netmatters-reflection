@@ -886,6 +886,7 @@ header {
 }
 
 .show-scroll-div {
+  transition: ease-in-out .4s;
   position: relative;
   right: 275px;
 }
@@ -2611,6 +2612,7 @@ a:hover.linkedin {
 }
 
 .show-menu {
+  transition: .4s;
   visibility: visible;
 }
 
@@ -2677,6 +2679,12 @@ a:hover.linkedin {
   }
 }
 
+@media (min-width: 992px) {
+  .support-heading {
+    display: none;
+  }
+}
+
 .big-button a {
   display: block;
   color: #fff;
@@ -2686,10 +2694,6 @@ a:hover.linkedin {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-}
-
-.big-button a:hover {
-  background-color: #454555;
 }
 
 .big-button ul {
@@ -2772,4 +2776,12 @@ a:hover.linkedin {
   outline: 1px solid rgba(0, 0, 0, 0.25);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 3px;
+}
+
+.big-button:hover > a {
+  background-color: #454555;
+}
+
+.block-container:hover > a {
+  background-color: #454555;
 }

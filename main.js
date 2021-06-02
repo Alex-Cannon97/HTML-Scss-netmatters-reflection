@@ -18,9 +18,8 @@ const overlay = document.getElementsByClassName('greybox-div')[0];
 const orginalHeader = document.querySelector("#main-header");
 const cloneHeader = orginalHeader.cloneNode(true);
 cloneHeader.id = "cloned-header";
-scroll.append(cloneHeader)
+scroll.appendChild(cloneHeader)
 cloneHeader.classList.add('hide-header')
-let prevScroll = scroll.scrollTop;
 topofpage = true;
 const clonebutton1 = document.getElementsByClassName('burger-icon')[1];
 const clonebutton2 = document.getElementsByClassName('other-menu-btn')[1];
