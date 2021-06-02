@@ -5,6 +5,7 @@ header{
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
+  transition: ease-in-out .4s;
 	@include mq('xs'){
 		padding: 20px 15px; 
 	}

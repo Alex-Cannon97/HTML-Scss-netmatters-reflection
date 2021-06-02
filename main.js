@@ -25,10 +25,10 @@ const clonebutton1 = document.getElementsByClassName('burger-icon')[1];
 const clonebutton2 = document.getElementsByClassName('other-menu-btn')[1];
 const cookieContainer = document.getElementsByClassName('big-container')[0];
 const cookieButton = document.getElementsByClassName('cookie-button')[0];
+let prevScroll = 0
 
 
 button1.onclick = function(){
-	menu.classList.add('show-menu')
 	scroll.classList.add('show-scroll-div')
 	overlay.classList.add('grey-overlay')
 	button1.classList.add('hide-main-btn')
@@ -36,7 +36,6 @@ button1.onclick = function(){
 };
 
 overlay.onclick = function(){
-	menu.classList.remove('show-menu')
 	scroll.classList.remove('show-scroll-div')
 	overlay.classList.remove('grey-overlay')
 	button2.classList.remove('menu-btn-show')
@@ -59,7 +58,6 @@ scroll.onscroll = function(){
 };
 
 clonebutton1.onclick = function(){
-	menu.classList.add('show-menu')
 	scroll.classList.add('show-scroll-div')
 	overlay.classList.add('grey-overlay')
 	button1.classList.add('hide-main-btn')

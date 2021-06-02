@@ -5,12 +5,17 @@
 }
 
 .scroll-div{
+	position: relative;
+	transition: ease-in-out .4s;
 	height: 100vh;
-	overflow: auto;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	right: 0;
+	z-index: 1;
+	background: $base-white;
 }
 
 .show-scroll-div{
-	transition: ease-in-out .4s;
 	position: relative;
 	right: 275px;
 	@include mq('md'){
@@ -18,13 +23,18 @@
 	}
 }
 
-.grey-overlay{
+.greybox-div{
+	position: fixed;
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
+	z-index: -100;
+	background: black;
+	opacity: 0;
+}
+
+.grey-overlay{
 	z-index: 8;
-	background: rgba(0,0,0,.4);
-	opacity: 1;
-	position: absolute;
+	opacity: .7;
 }
 
 body{
