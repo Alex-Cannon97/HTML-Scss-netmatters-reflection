@@ -769,6 +769,7 @@ header {
   top: 0;
   right: 17px;
   left: 0;
+  width: 100vw;
 }
 
 .hide-header {
@@ -777,7 +778,7 @@ header {
 
 .move-right {
   right: 292px !important;
-  left: -292px !important;
+  left: -275px !important;
 }
 
 @media (min-width: 992px) {

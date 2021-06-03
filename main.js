@@ -42,6 +42,7 @@ overlay.onclick = function(){
 	button1.classList.remove('hide-main-btn')
 	cloneHeader.classList.remove('move-right')
 	clonebutton2.classList.remove('menu-btn-show')
+	clonebutton1.classList.remove('hide-main-btn')
 };
 
 scroll.onscroll = function(){
@@ -60,7 +61,7 @@ scroll.onscroll = function(){
 clonebutton1.onclick = function(){
 	scroll.classList.add('show-scroll-div')
 	overlay.classList.add('grey-overlay')
-	button1.classList.add('hide-main-btn')
+	clonebutton1.classList.add('hide-main-btn')
 	clonebutton2.classList.add('menu-btn-show')
 	cloneHeader.classList.add('move-right')
 };
