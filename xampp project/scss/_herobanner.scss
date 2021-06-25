@@ -1,0 +1,119 @@
+// all hero related styles to go in here.
+
+//.carousel{
+//	display: flex;
+//	justify-content: center;
+//	align-items: center;
+//}
+
+.hero-banner{
+	background-size: cover;
+	background-position: center;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - 209px);
+	@include mq('xs'){
+		height: calc(100vh - 168px);
+		min-height: 532px;
+	}
+	@include mq('sm'){
+		height: calc(100vh - 110px);
+		min-height: 590px;
+	}
+	@include mq('md'){
+		height: calc(100vh - 209px);
+		min-height: 491px;
+	}
+	@include mq('lg'){
+		height: calc(100vh - 209px);
+		min-height: 491px;
+	}
+}
+
+.hero-banner.webslide{
+	background-image: linear-gradient(to right, rgb(0,0,0), rgba(0,0,0,.0)), url('../images/hero-image.PNG'), url('../images/hero-image-ie.jpg');
+}
+
+.hero-banner.ITslide{
+	background-image: linear-gradient(to right, rgb(0,0,0), rgba(0,0,0,.0)), url('../images/hero-slide2.jpg');
+}
+
+.hero-banner.telecomsslide{
+	background-image: linear-gradient(to right, rgb(0,0,0), rgba(0,0,0,.0)), url('../images/hero-slide3.jpg');
+}
+
+.hero-banner.bespokeslide{
+	background-image: linear-gradient(to right, rgb(0,0,0), rgba(0,0,0,.0)), url('../images/hero-slide4.jpg');
+}
+
+.hero-banner.digitalslide{
+	background-image: linear-gradient(to right, rgb(0,0,0), rgba(0,0,0,.0)), url('../images/hero-slide5.jpg');
+}
+
+.hero-banner.cyberslide{
+	background-image: linear-gradient(to right, rgb(0,0,0), rgba(0,0,0,.0)), url('../images/hero-slide6.jpg');
+}
+
+.hero-content{
+	width: 100%;
+	align-content: center;
+	@include mq('md'){
+		width: 940px;
+	}
+	@include mq('lg'){
+		width: 1170px;
+	}
+}
+
+
+ .hero-text{
+	width: 100%;
+	font-family: poppins, sans-serif;
+	color: $base-white;
+	text-align: center;
+	max-width: 90%;
+	margin: -1px auto 0;
+	h1{
+		font-size: 48px;
+		font-weight: 400;
+		margin: 0 0 25px 0;
+	}
+	p{
+		font-size: 1.25rem;
+		line-height: 2.25rem;
+		margin: 0 0 35px;
+	}
+	span{
+		font-weight: 400;
+		line-height: 50px;
+		font-size: 1.25rem;
+	}
+	@include mq('md'){
+		text-align: left;
+		margin-left: 0;
+		
+	}
+}
+
+
+//slick styles
+
+.slick-dots{
+	bottom: 62px;
+}
+
+.slick-dots li button::before{
+	font-size: 12px;
+	opacity: 0.45;
+	color: $base-white;
+}
+
+.slick-dots li.slick-active button::before{
+	color: $base-white;
+	opacity: 1;
+	border: 2px solid $base-white;
+	border-radius: 50%;
+	width: 19px;
+	height: 19px;
+}
