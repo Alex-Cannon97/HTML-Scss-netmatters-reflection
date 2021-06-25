@@ -43,28 +43,34 @@ require "./inc/header.php";
                                 <p class="open-hours"><strong>Out of Hours IT Support<strong></p>
                             </div>
                             <div class="form-area">
-                                <form action="contact.php" method="post">
+                                <form action="contact.php" method="post" class="cont-form">
                                     <fieldset id="cont-field">
                                         <!--this area meant for some form of error messages for issues-->
                                         <!--following are for the actual form-->
-                                        <div id="name-area" class="inputs-shrink">
-                                            <label for="name" class="cont-label">Your Name <span class="req">*</span></label><br>
-                                            <input type="text" id="name" name="user" class="cont-input" required="required"><br>
+                                        <div class="cont-one">
+                                            <div id="name-area" class="inputs-shrink">
+                                                <label for="name" class="cont-label">Your Name <span class="req">*</span></label><br>
+                                                <input type="text" id="name" name="user" class="cont-input" required="required"><br>
+                                            </div>
+                                            <div class="inputs-shrink">
+                                                <label for="email" class="cont-label">Your Email <span class="req">*</span></label><br>
+                                                <input type="email" id="email" name="user-email" class="cont-input" required="required" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"><br>
+                                            </div>
                                         </div>
-                                        <div class="inputs-shrink">
-                                            <label for="email" class="cont-label">Your Email <span class="req">*</span></label><br>
-                                            <input type="email" id="email" name="user-email" class="cont-input" required="required" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"><br>
+                                        <div class="cont-two">
+                                            <div id="number-area" class="inputs-shrink">
+                                                <label for="phone" class="cont-label">Your Telephone Number <span class="req">*</span></label><br>
+                                                <input type="tel" id="telephone" name="user-tele" class="cont-input" required="required"><br>
+                                            </div>
+                                            <div class="inputs-shrink">
+                                                <label for="subject" class="cont-label">Subject <span class="req">*</span></label><br>
+                                                <input type="text" id="subject" name="user-sub" class="cont-input" required="required"><br>
+                                            </div>
                                         </div>
-                                        <div id="number-area" class="inputs-shrink">
-                                            <label for="phone" class="cont-label">Your Telephone Number <span class="req">*</span></label><br>
-                                            <input type="tel" id="telephone" name="user-tele" class="cont-input" required="required"><br>
+                                        <div class="message-area">
+                                            <label for="message" class="cont-label" id="message-label">Message <span class="req">*</span></label><br>
+                                            <textarea id="message-input" name="sub-message" class="message-field" required="required"></textarea><br>
                                         </div>
-                                        <div class="inputs-shrink">
-                                            <label for="subject" class="cont-label">Subject <span class="req">*</span></label><br>
-                                            <input type="text" id="subject" name="user-sub" class="cont-input" required="required"><br>
-                                        </div>
-                                        <label for="message" class="cont-label" id="message-label">Message <span class="req">*</span></label><br>
-                                        <textarea id="message-input" name="sub-message" class="message-field" required="required"></textarea><br>
                                     </fieldset>
                                 </form>
                             </div>
