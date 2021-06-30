@@ -2848,7 +2848,7 @@ contact body {
 
 .background {
   width: 100vw;
-  height: 100vh;
+  height: 140vh;
   box-shadow: inset 0px 5px 35px 0px #0000001c;
 }
 
@@ -2892,14 +2892,19 @@ contact body {
   color: black;
 }
 
+.fa-angle-down {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
 .cont-container {
   width: 400px;
-  padding: 0px 15px;
+  padding: 0px 50px 0 0;
 }
 
 .inner-boy {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
   width: 100%;
   max-width: 1270px;
   margin: auto;
@@ -2915,6 +2920,8 @@ contact body {
 @media (min-width: 992px) {
   .inner-boy {
     flex-direction: row;
+    width: 100%;
+    max-width: 1260px;
   }
 }
 
@@ -2937,6 +2944,7 @@ contact body {
 #cont-field {
   width: 100%;
   border: none;
+  max-width: 800px;
 }
 
 .cont-input {
@@ -3011,4 +3019,90 @@ contact body {
 
 .cont-one div:first-child, .cont-two div:first-child {
   margin-right: 30px;
+}
+
+.marketing-box2 {
+  margin-top: 50px;
+  margin-bottom: 11px;
+  margin-left: 15px;
+  display: flex;
+}
+
+#enquiry {
+  margin-top: 25px;
+  margin-left: -52px;
+}
+
+.map-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1260px) {
+  .map-card-container {
+    width: 100%;
+    max-width: 1270px;
+    margin: auto;
+  }
+}
+
+.map-card1, .map-card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333645;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 30px;
+  box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+  width: 555px;
+  margin: 60px 15px 0 15px;
+}
+
+.map-card1:hover, .map-card2:hover {
+  background-color: #926fb1;
+  color: #fff;
+}
+
+.map-card1:hover .line, .map-card2:hover .line {
+  background-color: #fff;
+}
+
+.card-icon {
+  background-color: #333645;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 18px;
+  padding-bottom: 17px;
+  margin-bottom: 11px;
+}
+
+.line {
+  width: 28px;
+  height: 3px;
+  display: block;
+  background-color: #333645;
+  margin: 0 auto;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+.address-box {
+  font-size: 13px;
+  margin-bottom: 13px;
+}
+
+.map {
+  margin-left: 15px;
+}
+
+.map iframe {
+  border: none;
 }
