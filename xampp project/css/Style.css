@@ -2807,8 +2807,20 @@ a:hover.linkedin {
   }
 }
 
+@media (max-width: 767px) {
+  .home {
+    display: none;
+  }
+}
+
 .home-list {
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  .home-list {
+    padding-left: 50px;
+  }
 }
 
 .home-list li {
@@ -2834,21 +2846,19 @@ contact body {
 }
 
 .form-contact-section {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .contact-section {
-  width: calc(100% - 17px);
+  width: 100%;
   height: auto;
   display: flex;
 }
 
 .background {
-  width: 100vw;
-  height: 140vh;
+  width: calc(100% - 17px);
   box-shadow: inset 0px 5px 35px 0px #0000001c;
 }
 
@@ -2861,6 +2871,15 @@ contact body {
   padding: 50px 50px 0px;
   width: 1270px;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .contact-title h1 {
+    background: #333645;
+    color: #fff;
+    padding: 24px 50px;
+    line-height: 1;
+  }
 }
 
 .cont-info {
@@ -2902,6 +2921,13 @@ contact body {
   padding: 0px 50px 0 0;
 }
 
+@media (min-width: 768px) {
+  .cont-container {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+}
+
 .inner-boy {
   display: flex;
   flex-direction: column-reverse;
@@ -2917,11 +2943,12 @@ contact body {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1259px) {
   .inner-boy {
     flex-direction: row;
     width: 100%;
     max-width: 1260px;
+    padding: 0 30px;
   }
 }
 
@@ -2945,6 +2972,12 @@ contact body {
   width: 100%;
   border: none;
   max-width: 800px;
+}
+
+@media (min-width: 768px) {
+  #cont-field {
+    max-width: 100%;
+  }
 }
 
 .cont-input {
@@ -2990,7 +3023,7 @@ contact body {
 @media (min-width: 992px) {
   #cont-field #name-area,
   #cont-field #number-area {
-    margin-right: 36px;
+    margin-right: 0px;
   }
 }
 
@@ -3044,6 +3077,7 @@ contact body {
     width: 100%;
     max-width: 1270px;
     margin: auto;
+    margin-bottom: 20px;
   }
 }
 

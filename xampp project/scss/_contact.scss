@@ -5,10 +5,16 @@
     @include mq('lg'){
         max-width: 1270px;
     }
+    @include mq('xs'){
+        display: none;
+    }
 }
 
 .home-list{
     margin: 0;
+    @include mq('sm'){
+        padding-left: 50px;
+    }
 }
 
 .home-list li{
@@ -33,21 +39,19 @@ padding: 0;
 }
 
 .form-contact-section{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .contact-section{
-    width: calc(100% - 17px);
+    width: 100%;
     height: auto;
     display: flex;
 }
 
 .background{
-    width: 100vw;
-    height: 140vh;
+    width: calc(100% - 17px);
     box-shadow: inset 0px 5px 35px 0px #0000001c;
 }
 
@@ -60,6 +64,12 @@ padding: 0;
     padding: 50px 50px 0px;
     width: 1270px;
     margin-bottom: 30px;
+    @media screen and (max-width: 992px){
+        background: $base-dark;
+        color: $base-white;
+        padding: 24px 50px;
+        line-height: 1;
+    }
 }
 
 .cont-info{
@@ -99,6 +109,10 @@ padding: 0;
 .cont-container{
     width: 400px;
     padding: 0px 50px 0 0;
+    @include mq('sm'){
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
 }
 
 .inner-boy{
@@ -111,10 +125,11 @@ padding: 0;
     @include mq('lg'){
         flex-direction: row;
     }
-    @include mq('md'){
+    @include mq('md-lg'){
         flex-direction: row;
         width: 100%;
         max-width: 1260px;
+        padding: 0 30px;
     }
 }
 
@@ -138,6 +153,9 @@ padding: 0;
     width: 100%;
     border: none;
     max-width: 800px;
+    @include mq('sm'){
+        max-width: 100%;
+    }
 }
 
 .cont-input{
@@ -179,7 +197,7 @@ padding: 0;
 #cont-field #name-area,
 #cont-field #number-area{
     @include mq('md'){
-        margin-right: 36px;
+        margin-right: 0px;
     }
     @include mq('lg'){
         margin-right: 0px;
@@ -225,6 +243,7 @@ padding: 0;
         width: 100%;
         max-width: 1270px;
         margin: auto;
+        margin-bottom: 20px; 
     }
 }
 
