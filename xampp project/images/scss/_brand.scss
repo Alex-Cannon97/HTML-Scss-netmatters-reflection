@@ -1,0 +1,40 @@
+//brand with the netmatters image
+
+.hero-brand{
+	background-color: $base-dark;
+	color: $base-white;
+	padding: 50px 15px;
+	@include mq('md'){
+		background-image: url('../images/brand.PNG');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+	h2{
+		margin: -6px 0 28px;
+	}
+	p{
+		line-height: 1.875rem;
+		margin-bottom: 25px;
+	}
+	@include mq('sm'){
+		.hero-brand-content{
+			max-width: 720px;
+			margin: auto;
+		}
+	}
+	@include mq('md'){
+		.hero-brand-content{
+			max-width: 940px;
+		}
+	}
+	@include mq('lg'){
+		background-size: auto 100%;
+		.hero-brand-content{
+			max-width: 1170px;
+			p{
+				max-width: 570px;
+			}
+		}
+	}
+}
