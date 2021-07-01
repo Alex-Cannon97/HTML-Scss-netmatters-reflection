@@ -30,13 +30,12 @@
 }
 
 .contact-container{
-    width: 100vw;
     height: 100vh;
 }
-contact body{
-margin: 0;
-padding: 0;
-}
+ contact body{
+ margin: 0;
+ padding: 0;
+ }
 
 .form-contact-section{
     width: 100%;
@@ -53,6 +52,26 @@ padding: 0;
 .background{
     width: calc(100% - 17px);
     box-shadow: inset 0px 5px 35px 0px #0000001c;
+    @include mq('xs'){
+        width: 100%;
+    }
+    @include mq('sm'){
+        width: 100%;
+    }
+}
+
+.contact-title{
+    width: 100%;
+    max-width: 1270px;
+    margin: auto;
+    padding: 0px 50px;
+    @media screen and (max-width: 992px){
+        padding: 0 !important;
+    }
+    @media screen and (max-width: 1259px){
+        max-width: 970px;
+        padding: 0px 15px;
+    }
 }
 
 .contact-title h1{
@@ -61,14 +80,14 @@ padding: 0;
     font-family: $fontstyle;
     text-transform: none !important;
     margin: 0 auto;
-    padding: 50px 50px 0px;
-    width: 1270px;
+    padding: 24px 0;
     margin-bottom: 30px;
+    width: 100%;
     @media screen and (max-width: 992px){
         background: $base-dark;
         color: $base-white;
-        padding: 24px 50px;
         line-height: 1;
+        padding-left: 15px;
     }
 }
 
@@ -109,6 +128,9 @@ padding: 0;
 .cont-container{
     width: 400px;
     padding: 0px 50px 0 0;
+    @include mq('xs'){
+        padding-left: 20px;
+    }
     @include mq('sm'){
         padding-left: 20px;
         margin-bottom: 20px;
@@ -124,12 +146,13 @@ padding: 0;
     padding: 0px 30px;
     @include mq('lg'){
         flex-direction: row;
-    }
-    @include mq('md-lg'){
-        flex-direction: row;
         width: 100%;
         max-width: 1260px;
         padding: 0 30px;
+    }
+    @media screen and (max-width: 1259px){
+        max-width: 970px;
+        padding: 0;
     }
 }
 
@@ -207,6 +230,9 @@ padding: 0;
 .cont-one, .cont-two{
     display: flex;
     flex-direction: row;
+    @media screen and (max-width: 992px){
+        flex-direction: column;
+    }
 }
 
 .message-area, .message-area textarea{
@@ -220,6 +246,9 @@ padding: 0;
     padding: 0px 15px;
     &:first-child{
         margin-right: 30px;
+    }
+    @media screen and (max-width: 992px){
+        width: 100%;
     }
 }
 
@@ -237,13 +266,32 @@ padding: 0;
 
 .map-card-container{
     display: flex;
-    align-items: center;
     justify-content: center;
+    padding: 0 15px;
+      @include mq('md'){
+        width: 100%;
+        max-width: 970px;
+        margin: auto;
+        margin-bottom: 20px; 
+        padding: 0 15px;
+    }
     @include mq('lg'){
         width: 100%;
         max-width: 1270px;
         margin: auto;
         margin-bottom: 20px; 
+    }
+    @media screen and (max-width: 767px){
+        flex-direction: column;
+    }
+}
+
+.cards-cont{
+    width: 50%;
+    padding: 0 15px;
+    @media screen and (max-width: 767px){
+        width: 100%;
+        margin: 0 auto;
     }
 }
 
@@ -251,7 +299,6 @@ padding: 0;
     display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	margin-bottom: 30px;
 	text-align: center;
 	color: $base-dark;
 	background-color: $base-white;
@@ -259,8 +306,9 @@ padding: 0;
 	border-radius: 3px;
 	padding: 30px;
 	box-shadow: 0 3px 35px rgba(0,0,0,.1);
-    width: 555px;
-    margin: 60px 15px 0 15px;
+    max-width: 555px;
+    margin: 60px auto 0;
+    min-height: 342px;
     &:hover{
         background-color: $design-color;
         color: $base-white;
@@ -298,9 +346,13 @@ padding: 0;
 }
 
 .map{
-    margin-left:15px;
+    margin: 0 auto;
+    max-width: 555px;
 }
 
 .map iframe{
     border: none;
+    width: 100%;
+    max-width: 555px;
+    height: 300px;
 }
