@@ -19,14 +19,49 @@ const cloneHeader = orginalHeader.cloneNode(true);
 cloneHeader.id = "cloned-header";
 scroll.appendChild(cloneHeader)
 cloneHeader.classList.add('hide-header')
+cloneHeader.classList.add('cloned-header')
 topofpage = true;
 const clonebutton1 = document.getElementsByClassName('burger-icon')[1];
 const clonebutton2 = document.getElementsByClassName('other-menu-btn')[1];
 const cookieContainer = document.getElementsByClassName('big-container')[0];
 const cookieButton = document.getElementsByClassName('cookie-button')[0];
-let prevScroll = 0
+let prevScroll = 0;
+let emailValidation = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+const submitEnquiry = document.querySelector('#enquiry');
 
 
+const checkEmail = function(email){
+    if(email.value.match(emailValidation)){
+        return true
+    }
+    else{
+        console.log('error with email')
+		return false
+    }
+}
+
+const emptyField = function(){
+	const formInputs = [document.querySelector('#name'),document.querySelector('#email'),document.querySelector('#telephone'),document.querySelector('#subject'),document.querySelector('#message-input')];
+	for(let x = 0, c = formInputs.length; x < c; x++){
+		console.log(formInputs[x].value) 
+		
+	if(formInputs[x].value === ""){
+		formInputs[x].classList.add('form-error')
+	}else{
+		formInputs[x].classList.remove('form-error')
+	}
+	}
+		if(checkEmail(formInputs[1]) === false){
+		formInputs[1].classList.add('form-error')
+		console.log('hello world')
+	}
+}
+function checkSubmit(){
+	if(submitEnquiry != null){
+submitEnquiry.addEventListener('click', emptyField);
+	}
+}
+checkSubmit()
 
 button1.onclick = function(){
 	scroll.classList.add('show-scroll-div')
@@ -45,18 +80,18 @@ overlay.onclick = function(){
 	clonebutton1.classList.remove('hide-main-btn')
 };
 
-scroll.onscroll = function(){
-	if(prevScroll < scroll.scrollTop) {
+document.querySelector('.scroll-div').addEventListener('scroll', function(){
+	if(prevScroll <= this.scrollTop) {
 		cloneHeader.classList.add('hide-header')
 	}
-	else{
+	else if(prevScroll > this.scrollTop){
 		cloneHeader.classList.remove('hide-header')
 	}
-	prevScroll = scroll.scrollTop
-	if(scroll.scrollTop === 0){
+	prevScroll = this.scrollTop
+	if(this.scrollTop === 0){
 		cloneHeader.classList.add('hide-header')
 	}
-};
+});
 
 clonebutton1.onclick = function(){
 	scroll.classList.add('show-scroll-div')

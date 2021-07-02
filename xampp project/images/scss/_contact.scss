@@ -2,17 +2,23 @@
     width: 100%;
     height: 50px;
     margin: auto;
-    @include mq('lg'){
-        max-width: 1270px;
-    }
+    
     @include mq('xs'){
         display: none;
     }
 }
 
 .home-list{
-    margin: 0;
+    margin: auto;
+    display: block;
     @include mq('sm'){
+        padding-left: 50px;
+    }@include mq('md'){
+        max-width: 970px;
+        padding-left: 15px;
+    }
+    @include mq('lg'){
+        max-width: 1270px;
         padding-left: 50px;
     }
 }
@@ -160,16 +166,19 @@
     width: 100%;
     max-width: 1270px;
     margin: auto;
-    padding: 0px 30px;
-    @include mq('lg'){
+    padding: 0px 30px; 
+    @include mq('sm'){
+        max-width: 770px;
+    }
+    @include mq('md'){
+        max-width: 970px;
+        padding: 0;
+    }
+     @include mq('lg'){
         flex-direction: row;
         width: 100%;
         max-width: 1260px;
         padding: 0 30px;
-    }
-    @media screen and (max-width: 1259px){
-        max-width: 970px;
-        padding: 0;
     }
 }
 
@@ -366,4 +375,8 @@
     border: none;
     width: 100%;
     height: 300px;
+}
+
+.form-error{
+    border: 1px solid $telecoms-color !important;
 }

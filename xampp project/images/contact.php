@@ -1,6 +1,6 @@
 <?php
-require "./inc/connection.php";
-$results = $db->query("SELECT * FROM news");
+include "./inc/validation.php";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -66,7 +66,7 @@ require "./inc/header.php";
 				                                <label class="marketing-label" for="marketing-optin">
 					                                <input type="checkbox" name="accept-marketing" id="marketing-optin" value="1">
 					                                <span>Please tick this box if you wish to recieve marketing information from us. Please see our <a href="#" style="text-decoration: underline;">Privacy Policy</a> for more information on how we use your data.</span>
-                                                    <button id="enquiry" class="btn btn-subscribe" type="submit">SEND ENQUIRY</button>
+                                                    <button id="enquiry" class="btn btn-subscribe">SEND ENQUIRY</button>
                                                 </label>
 			                                </div>
                                         </fieldset>
@@ -125,7 +125,7 @@ require "./inc/footer.php";
 <?php
 require "./inc/side-menu.php"
 ?>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="main.js"></script>
 </body>
 </html>
