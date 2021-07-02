@@ -530,17 +530,17 @@ header{
   		display: flex;
   	}
   
-  #cloned-header{
+  .cloned-header{
     position: fixed;
     background-color: $base-white;
-    top: 0;
+    top: -1px;
     right: 17px;
     left: 0;
     width: 100vw;
   }
 
   .hide-header{
-    display: none;
+    top: -100%;
   }
 
   .move-right{

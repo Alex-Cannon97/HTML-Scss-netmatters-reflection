@@ -178,6 +178,27 @@
 		}
 }
 
+.btn-1{
+	background-color: $design-color;
+	&:hover{
+		background-color: $design-color-hover;
+	}
+}
+
+.btn-2{
+	background-color: $bespoke-color;
+	&:hover{
+		background-color: $bespoke-color-hover;
+		}
+}
+
+.btn-3{
+	background-color: $telecoms-color;
+	&:hover{
+		background-color: $telecoms-color-hover;
+	}
+}
+
 .btn-design{
 	background-color: $design-color;
 	&:hover{

@@ -1,6 +1,6 @@
 <?php
-require "./inc/connection.php";
-$results = $db->query("SELECT * FROM news");
+include "./inc/validation.php";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,6 +13,8 @@ $results = $db->query("SELECT * FROM news");
 	<title>Contact Us | Netmatters</title>
 </head>
 <body>
+<div class="scroll-div">
+<div class="greybox-div"></div>
 <?php 
 require "./inc/header.php";
 ?>
@@ -64,7 +66,7 @@ require "./inc/header.php";
 				                                <label class="marketing-label" for="marketing-optin">
 					                                <input type="checkbox" name="accept-marketing" id="marketing-optin" value="1">
 					                                <span>Please tick this box if you wish to recieve marketing information from us. Please see our <a href="#" style="text-decoration: underline;">Privacy Policy</a> for more information on how we use your data.</span>
-                                                    <button id="enquiry" class="btn btn-subscribe" type="submit">SEND ENQUIRY</button>
+                                                    <button id="enquiry" class="btn btn-subscribe">SEND ENQUIRY</button>
                                                 </label>
 			                                </div>
                                         </fieldset>
@@ -80,7 +82,14 @@ require "./inc/header.php";
                                     <p class="cont-info"><a href="sales@netmatters.com">sales@netmatters.com</a></p>
                                     <p class="open-hours"><strong>Buisness Hours:</strong></p>
                                     <p class="open-hours"><strong>Monday - Friday 07:00 - 18:00</strong></p>
-                                    <p class="open-hours"><strong>Out of Hours IT Support </strong><i class="fas fa-angle-down"></i></p>
+                                    <p class="open-hours acc-title"><strong>Out of Hours IT Support </strong><i class="fas fa-angle-down"></i></p>
+                                    <div class="accordion">
+                                        <div class="acc-container">
+                                            <p>Netmatters IT are offering an Out of Hours service for Emergency and Critical tasks.</p>
+                                            <p><strong class="opening">Monday - Friday 18:00 - 22:00 Saturday<br> 08:00 - 16:00<br>Sunday 10:00 - 18:00</strong></p>
+                                            <p>To log a critical task, you will need to call our main line number and select Option 2 to leave an Out of Hours  voicemail. A technician will contact you on the number provided within 45 minutes of your call.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="map-card-container">
@@ -96,20 +105,27 @@ require "./inc/header.php";
                                 <div class="cards-cont">
                                     <div class="map-card2">
                                         <div class="card-icon"><i class="fas fa-home"></i></div>
-                                        <span class="title">Netmatters Office: Gorleston, Great Yarmouth</span>
-                                        <span class="line"></span>
-                                        <span class="address-box">Netmatters - Great Yarmouth<br>Suite F23 Beacon Innovation Centre, Beacon Park<br>Gorleston, Great Yarmouth<br>Norfolk<br>NR31 7RA</span>
+                                            <span class="title">Netmatters Office: Gorleston, Great Yarmouth</span>
+                                            <span class="line"></span>
+                                            <span class="address-box">Netmatters - Great Yarmouth<br>Suite F23 Beacon Innovation Centre, Beacon Park<br>Gorleston, Great Yarmouth<br>Norfolk<br>NR31 7RA</span>
+                                        </div>
+                                        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2425.7233105421165!2d1.7104906159999724!3d52.556529641273535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47da0593b311cec3%3A0x1cb3c1d4c0b340f6!2sNetmatters%20Great%20Yarmouth!5e0!3m2!1sen!2suk!4v1625055450440!5m2!1sen!2suk" allowfullscreen="" loading="lazy"></iframe></div>
                                     </div>
-                                    <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2425.7233105421165!2d1.7104906159999724!3d52.556529641273535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47da0593b311cec3%3A0x1cb3c1d4c0b340f6!2sNetmatters%20Great%20Yarmouth!5e0!3m2!1sen!2suk!4v1625055450440!5m2!1sen!2suk" allowfullscreen="" loading="lazy"></iframe></div>
                                 </div>
                             </div>
-                        </div>
-                    </div>    
-            </div>
-     </div>
-     <?php
+                        </div>    
+               </div>
+        </div>
+        <?php
 require "./inc/news-letter.php";
 require "./inc/footer.php";
 ?>
+    </div>
 </div>
+<?php
+require "./inc/side-menu.php"
+?>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="main.js"></script>
 </body>
+</html>

@@ -2,17 +2,23 @@
     width: 100%;
     height: 50px;
     margin: auto;
-    @include mq('lg'){
-        max-width: 1270px;
-    }
+    
     @include mq('xs'){
         display: none;
     }
 }
 
 .home-list{
-    margin: 0;
+    margin: auto;
+    display: block;
     @include mq('sm'){
+        padding-left: 50px;
+    }@include mq('md'){
+        max-width: 970px;
+        padding-left: 15px;
+    }
+    @include mq('lg'){
+        max-width: 1270px;
         padding-left: 50px;
     }
 }
@@ -110,30 +116,47 @@
 }
 
 .email-us{
-    color: black;
+    color: $base-dark;
     font-size: 16px;
     margin: 0;
 }
 
 .open-hours{
     margin-bottom: 25px;
-    color: black;
+    color: $base-dark;
+}
+
+.opening{
+    color: $base-dark;
 }
 
 .fa-angle-down{
-    font-size: 20px;
-    padding-top: 10px;
+  font-weight: 550;
+}
+
+.acc-title{
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+.accordion{
+    display: none;
 }
 
 .cont-container{
-    width: 400px;
     padding: 0px 50px 0 0;
+    max-width: 400px;
     @include mq('xs'){
         padding-left: 20px;
     }
     @include mq('sm'){
         padding-left: 20px;
         margin-bottom: 20px;
+    }
+    @media screen and(max-width: 1259px){
+        max-width: none;
     }
 }
 
@@ -143,16 +166,19 @@
     width: 100%;
     max-width: 1270px;
     margin: auto;
-    padding: 0px 30px;
-    @include mq('lg'){
+    padding: 0px 30px; 
+    @include mq('sm'){
+        max-width: 770px;
+    }
+    @include mq('md'){
+        max-width: 970px;
+        padding: 0;
+    }
+     @include mq('lg'){
         flex-direction: row;
         width: 100%;
         max-width: 1260px;
         padding: 0 30px;
-    }
-    @media screen and (max-width: 1259px){
-        max-width: 970px;
-        padding: 0;
     }
 }
 
@@ -173,7 +199,6 @@
 }
 
 #cont-field{
-    width: 100%;
     border: none;
     max-width: 800px;
     @include mq('sm'){
@@ -183,7 +208,6 @@
 
 .cont-input{
     width: 100%;
-    max-width: 720px;
     padding: 5px 15px;
     margin-top: 5px;
     margin-bottom: 25px;
@@ -268,18 +292,17 @@
     display: flex;
     justify-content: center;
     padding: 0 15px;
-      @include mq('md'){
-        width: 100%;
-        max-width: 970px;
-        margin: auto;
-        margin-bottom: 20px; 
-        padding: 0 15px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    @include mq('sm'){
+        max-width: 750px;
+    }
+    @include mq('md'){
+        max-width: 970px; 
     }
     @include mq('lg'){
-        width: 100%;
-        max-width: 1270px;
-        margin: auto;
-        margin-bottom: 20px; 
+        max-width: 1200px;
     }
     @media screen and (max-width: 767px){
         flex-direction: column;
@@ -306,8 +329,7 @@
 	border-radius: 3px;
 	padding: 30px;
 	box-shadow: 0 3px 35px rgba(0,0,0,.1);
-    max-width: 555px;
-    margin: 60px auto 0;
+    margin: 60px 0 0;
     min-height: 342px;
     &:hover{
         background-color: $design-color;
@@ -347,12 +369,14 @@
 
 .map{
     margin: 0 auto;
-    max-width: 555px;
 }
 
 .map iframe{
     border: none;
     width: 100%;
-    max-width: 555px;
     height: 300px;
+}
+
+.form-error{
+    border: 1px solid $telecoms-color !important;
 }

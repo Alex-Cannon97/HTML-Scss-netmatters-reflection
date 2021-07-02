@@ -16,7 +16,7 @@ $results = $db->query("SELECT * FROM news");
 	<title>Netmatters | Full Service Digital Service Agency | Norwich, Norfolk | Netmatters</title>
 </head>
  
-<body>
+<body onload="checkCookie(); slick()">
 	<!--empty greybox div class to be assinged using JS with 100vh and 100vw z-index set to 8-->
 	
 	<div class="scroll-div">
@@ -217,96 +217,38 @@ require "./inc/header.php";
 	</div>
 	<div id="news-cards">
 		<div id="news-container">
-			<div id="news-story-1" class="news-story">
+			<?php foreach ($results as $result) { ?>
+			<div <?php echo 'id="news-story-'.$result['ID'].'"'?> class="news-story">
 				<div class="img-container">
 					<a href="#">
 						<figure class="story-fig">
-							<img src="images/job-net.jpg" class="story-img" alt="job image">
-							<div class="image-caption one">NEWS</div>
+							<img <?php echo 'src="'.$result['images'].'"'?> class="story-img"  <?php echo 'alt="'.$result['image-alt'].'"'?>>
+							<div <?php echo 'class="image-caption '.'tag-'.$result['ID'].'"'?>> <?php echo $result['catagories']?></div>
 						</figure>
 					</a>
 				</div>
 				<article>
-					<h3 class="bespoke-title"><a href="#">Are you looking to recruit a junior developer...</a></h3>
-					<p>Many businesses will benefit from having someone in-house to work on development on an ongoin...</p>
+					<h3 <?php echo 'class="title-'.$result['ID'].'"'?>><a href="#"><?php echo $result['titles']?></a></h3>
+					<p><?php echo $result['content']?></p>
 					<a href="#">
-						<div class="btn btn-read-more btn-bespoke">
+						<div <?php echo 'class="btn btn-read-more btn-'.$result['ID'].'"'?>>
 							<span>read more</span>
 						</div>
 					</a>
 					<footer class="story-ftr">
 						<div class="auth-img">
-							<img src="images/tessa-woodrow-.jpg" alt="profile img">
+							<img <?php echo 'src="'.$result['profile-image'].'"'?> alt="profile img">
 						</div>
 						<div class="author">
 							<ul>
-								<li><strong>Posted by Tessa Woodrow</strong></li>
-								<li>1st April 2021</li>
+								<li><strong><?php echo $result['author-name']?></strong></li>
+								<li><?php echo $result['date']?></li>
 							</ul>
 						</div>
 					</footer>
 				</article>
 			</div>
-			<!--<div id="news-story-2" class="news-story">
-				<div class="img-container">
-					<a href="#">
-						<figure class="story-fig">
-							<img src="images/grants-available-for.jpg" class="story-img" alt="grants image">
-							<div class="image-caption two">NEWS</div>
-						</figure>
-					</a>
-				</div>
-				<article>
-					<h3 class="design-title"><a href="#">Grants Available For Breckland Businesses Loo...</a></h3>
-					<p>Businesses in Breckland are being offered a fantastic opportunity to embrace the digital worl...</p>
-					<a href="#">
-						<div class="btn btn-read-more btn-design">
-							<span>read more</span>
-						</div>
-					</a>
-					<footer class="story-ftr">
-						<div class="auth-img">
-							<img src="images/netmatters-ltd.PNG" alt="profile img">
-						</div>
-						<div class="author">
-							<ul>
-								<li><strong>Posted by Netmatters Ltd</strong></li>
-								<li>25th March 2021</li>
-							</ul>
-						</div>
-					</footer>
-				</article>
-			</div>
-			<div id="news-story-3" class="news-story">
-				<div class="img-container">
-					<a href="#">
-						<figure class="story-fig">
-							<img src="images/case-study-warren-ie.jpg" class="story-img" alt="study image">
-							<div class="image-caption three">CASE STUDIES</div>
-						</figure>
-					</a>
-				</div>
-				<article>
-					<h3 class="telecoms-title"><a href="#">Case Study Warren Services</a></h3>
-					<p>The Client: Warren Services was founded in 1990. They manufacture high-quality components...</p>
-					<a href="#">
-						<div class="btn btn-read-more btn-telecoms">
-							<span>read more</span>
-						</div>
-					</a>
-					<footer class="story-ftr">
-						<div class="auth-img">
-							<img src="images/netmatters-ltd.PNG" alt="profile img">
-						</div>
-						<div class="author">
-							<ul>
-								<li><strong>Posted by Netmatters Ltd</strong></li>
-								<li>24th March 2021</li>
-							</ul>
-						</div>
-					</footer>
-				</article>
-			</div>-->
+			<?php } ?>
 		</div>
 	</div>
 </div>
@@ -375,7 +317,7 @@ require "./inc/footer.php";
 <?php 
 require "./inc/side-menu.php";
 ?>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
 <script src="main.js"></script>
 </body>
