@@ -81,7 +81,7 @@ overlay.onclick = function(){
 };
 
 document.querySelector('.scroll-div').addEventListener('scroll', function(){
-	if(prevScroll <= this.scrollTop) {
+	if(prevScroll < this.scrollTop) {
 		cloneHeader.classList.add('hide-header')
 	}
 	else if(prevScroll > this.scrollTop){
@@ -121,7 +121,6 @@ let open = false;
 
 $('.acc-title').on("click", function(){
 	let accord = $(".accordion");
-
 	if(!open){
 		$(accord).slideDown(400);
 		open = true;

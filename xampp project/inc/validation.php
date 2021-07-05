@@ -9,7 +9,7 @@ if(isset($_POST['user-email']) && $_POST['user-email'] != ""){
   if($valid === true && $numValid === true){
     $query->bindParam(':name',$cleanInput[0]);
     $query->bindParam(':email', $_POST['user-email']);
-    $query->bindParam(':phone',$_POST['user-tele']);
+    $query->bindParam(':phone', $_POST['user-tele']);
     $query->bindParam(':subject',$cleanInput[1]);
     $query->bindParam(':message',$cleanInput[2]);
     $query->execute();
@@ -24,9 +24,10 @@ function validator(){
         return true;
     }return false;
 }
-
+//current state doesn't store the 0 at the start of number, change to sanitize string then do if else statement for numbers only or return false.
+$phone = preg_replace('/[^0-9+-]/', '', $_POST['user-tele']);
 function numChecker(){
-    if(filter_var($_POST['user-tele'], FILTER_VALIDATE_FLOAT)){
+    if(strlen($_POST['user-tele']) === 11){
         return true;
     }return false;
 }
