@@ -93,7 +93,7 @@
         background: $base-dark;
         color: $base-white;
         line-height: 1;
-        padding-left: 15px;
+        padding-left: 50px;
     }
 }
 
@@ -203,6 +203,9 @@
     max-width: 800px;
     @include mq('sm'){
         max-width: 100%;
+    }
+    @media screen and (max-width: 992px){
+        width: 720px;
     }
 }
 
@@ -379,4 +382,12 @@
 
 .form-error{
     border: 1px solid $telecoms-color !important;
+}
+
+#message-input{
+&:focus{
+    outline: none;
+    border: 1px solid rgb(91, 192, 222);
+    box-shadow: 0px 0px 8px rgba(91, 192, 222, .6);
+}
 }
