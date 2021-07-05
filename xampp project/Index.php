@@ -30,7 +30,7 @@ $results = $db->query("SELECT * FROM news");
 				<p>You can see a list of the other companies who use cookies on this website, by visiting cookie settings at the bottom of each page. For full details of how we use your personal information, and your rights in relation to it, view our privacy policy.</p>
 			</div>
 			<div class="cookie-buttons">
-				<a class="btn"href="#">CHANGE SETTINGS</a>
+				<a class="btn" href="#">CHANGE SETTINGS</a>
 				<button class="cookie-button btn">ACCEPT COOKIES</button>
 			</div>
 		</div>

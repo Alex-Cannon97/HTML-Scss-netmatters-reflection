@@ -24,7 +24,7 @@
 				<div class="btn btn-search"><i class="fas fa-search"></i>
 				</div>
 			</form>
-			<div class="btn burger-icon">
+			<!-- <div class="btn burger-icon">
 				<a href="#"><div id="burger-lines">
                 <div class="burger-line"></div>
                 <div class="burger-line"></div>
@@ -38,7 +38,13 @@
 					<i class="fas fa-times"></i>
 	                <p class="menu-title">MENU</p>
             	</a>
-        	</div>
+        	</div> -->
+			<button class="btn burger-icon hamburger hamburger--spin " type="button">
+  				<span class="hamburger-box">
+    			<span class="hamburger-inner"></span>
+  				</span>
+				  <p class="menu-title">MENU</p>
+			</button>
 		</nav>
 	</div>
 <!--search bar funtion on extra small screens only-->	

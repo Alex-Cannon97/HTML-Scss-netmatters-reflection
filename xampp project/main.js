@@ -10,7 +10,6 @@
 
 
 const button1 = document.getElementsByClassName('burger-icon')[0];
-const button2 = document.getElementsByClassName('other-menu-btn')[0];
 const menu = document.getElementsByClassName('menu-container')[0];
 const scroll = document.getElementsByClassName('scroll-div')[0];
 const overlay = document.getElementsByClassName('greybox-div')[0];
@@ -66,18 +65,18 @@ checkSubmit()
 button1.onclick = function(){
 	scroll.classList.add('show-scroll-div')
 	overlay.classList.add('grey-overlay')
-	button1.classList.add('hide-main-btn')
-	button2.classList.add('menu-btn-show')
+	button1.classList.add('is-active')
+	
 };
 
 overlay.onclick = function(){
 	scroll.classList.remove('show-scroll-div')
 	overlay.classList.remove('grey-overlay')
-	button2.classList.remove('menu-btn-show')
-	button1.classList.remove('hide-main-btn')
+	
+	button1.classList.remove('is-active')
 	cloneHeader.classList.remove('move-right')
-	clonebutton2.classList.remove('menu-btn-show')
-	clonebutton1.classList.remove('hide-main-btn')
+	
+	clonebutton1.classList.remove('is-active')
 };
 
 document.querySelector('.scroll-div').addEventListener('scroll', function(){
@@ -91,13 +90,17 @@ document.querySelector('.scroll-div').addEventListener('scroll', function(){
 	if(this.scrollTop === 0){
 		cloneHeader.classList.add('hide-header')
 	}
+	if(getScrollbarWidth() === 0){
+		cloneHeader.classList.add('changeHeader');
+	  }else{
+		  cloneHeader.classList.remove('changeHeader');
+	  }
 });
 
 clonebutton1.onclick = function(){
 	scroll.classList.add('show-scroll-div')
 	overlay.classList.add('grey-overlay')
-	clonebutton1.classList.add('hide-main-btn')
-	clonebutton2.classList.add('menu-btn-show')
+	clonebutton1.classList.add('is-active')
 	cloneHeader.classList.add('move-right')
 };
 
@@ -140,3 +143,29 @@ $(document).ready(function(){
 	  });
 	});
 }
+
+
+function getScrollbarWidth() {
+
+	// Creating invisible container
+	const outer = document.createElement('div');
+	outer.style.visibility = 'hidden';
+	outer.style.overflow = 'scroll'; // forcing scrollbar to appear
+	outer.style.msOverflowStyle = 'scrollbar'; // needed for WinJS apps
+	document.body.appendChild(outer);
+  
+	// Creating inner element and placing it in the container
+	const inner = document.createElement('div');
+	outer.appendChild(inner);
+  
+	// Calculating difference between container's full width and the child width
+	const scrollbarWidth = (outer.offsetWidth - inner.offsetWidth);
+  
+	// Removing temporary elements from the DOM
+	outer.parentNode.removeChild(outer);
+	console.log(scrollbarWidth)
+	return scrollbarWidth;
+  
+  }
+
+  getScrollbarWidth();
