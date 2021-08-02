@@ -1,6 +1,6 @@
 <?php
 require "./inc/connection.php";
-$results = $db->query("SELECT * FROM news");
+$results = $db->query("SELECT * FROM news LIMIT 3");
 ?>
 
 <!DOCTYPE html>

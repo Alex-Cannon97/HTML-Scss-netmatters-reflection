@@ -84,11 +84,15 @@ document.querySelector('.scroll-div').addEventListener('scroll', function(){
 		cloneHeader.classList.add('hide-header')
 	}
 	else if(prevScroll > this.scrollTop){
+		
 		cloneHeader.classList.remove('hide-header')
 	}
 	prevScroll = this.scrollTop
 	if(this.scrollTop === 0){
-		cloneHeader.classList.add('hide-header')
+		cloneHeader.classList.add('hide-non-animated-header')
+	}
+	else if(this.scrollTop != 0){
+		cloneHeader.classList.remove('hide-non-animated-header')
 	}
 	if(getScrollbarWidth() === 0){
 		cloneHeader.classList.add('changeHeader');

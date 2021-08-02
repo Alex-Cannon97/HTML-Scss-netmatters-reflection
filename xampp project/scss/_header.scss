@@ -71,11 +71,9 @@ header{
   	@include mq('xs'){
   		justify-content: space-between;
   		flex: 1 0 148.03px;
-  		padding: 0 0 15px;
   		min-width: 148.03px;
   		max-width: 154.03px;
   		width: 100%;
-  		//position: absolute;
   		top: 27px;
   		right: 15px;
   	}
@@ -173,7 +171,6 @@ header{
   }
 
   #xs-search{
-	  margin: 0 !important;
   	@include mq('xs'){
   		display: flex;
   		flex: 0 0 100%;
@@ -560,6 +557,10 @@ header{
 
   .hide-header{
     top: -100%;
+  }
+
+  .hide-non-animated-header{
+	  display: none;
   }
 
   .move-right{

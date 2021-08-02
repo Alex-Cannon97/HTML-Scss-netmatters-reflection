@@ -13,6 +13,7 @@
     display: block;
     @include mq('sm'){
         padding-left: 50px;
+        max-width: 820px;
     }@include mq('md'){
         max-width: 970px;
         padding-left: 15px;
@@ -168,7 +169,7 @@
     margin: auto;
     padding: 0px 30px; 
     @include mq('sm'){
-        max-width: 770px;
+        max-width: 820px;
     }
     @include mq('md'){
         max-width: 970px;
@@ -239,9 +240,11 @@
 }
 
 #message-input{
-    padding: 5px 15px;
+    padding: 14px 15px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    font-family: arial;
+    font-size: 14px;
 }
 
 #cont-field #name-area,
